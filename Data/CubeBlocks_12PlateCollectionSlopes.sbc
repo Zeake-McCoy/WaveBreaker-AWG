@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopedCornerBase12mm</SubtypeId>
+      </Id>
+      <DisplayName>AWG 12mm Sloped Corner Base (Misc Slopes)</DisplayName>
+      <Icon>NewIcons\MiscSlopes12.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGSlopedCornerBase.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopedCornerTip12mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopedCorner12mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlabRaisedCornerSplit12mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>InvertedCornerTip12mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>InvertedCornerBase12mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlabCornerSplit12mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>HalfSlopedCornerBase12mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>12PlateConversionSlopeLeft</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>12PlateConversionSlopeRight</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>12ConversionSlopeInverseLeft</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>12ConversionSlopeInverseRight</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>12ConversionSlopeInverseLeft</SubtypeId>
+      </Id>
+      <DisplayName>12mm Conversion Slope Inverse Left</DisplayName>
+      <Icon>Textures\GUI\Icons\25PlateCentre.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\ConversionSlopeInverseLeft.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>12ConversionSlopeInverseRight</SubtypeId>
+      </Id>
+      <DisplayName>12mm Conversion Slope Inverse Right</DisplayName>
+      <Icon>Textures\GUI\Icons\25PlateCentre.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\ConversionSlopeInverseRight.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>12PlateConversionSlopeLeft</SubtypeId>
+      </Id>
+      <DisplayName>12mm Conversion Slope Left</DisplayName>
+      <Icon>Textures\GUI\Icons\25PlateCentre.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopeConverterLeft.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>12PlateConversionSlopeRight</SubtypeId>
+      </Id>
+      <DisplayName>12mm Conversion Slope Right</DisplayName>
+      <Icon>Textures\GUI\Icons\25PlateCentre.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopeConverterRight.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HalfSlopedCornerBase12mm</SubtypeId>
+      </Id>
+      <DisplayName>12mm Half Sloped Corner Base</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlopeCap.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGHalfSlopedCornerBase.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopedCornerTip12mm</SubtypeId>
+      </Id>
+      <DisplayName>12mm Sloped Corner Tip</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlopeCap.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGSlopedCornerTip.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>    
+    
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopedCorner12mm</SubtypeId>
+      </Id>
+      <DisplayName>12mm Sloped Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlopeCap.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGSlopedCorner.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlabRaisedCornerSplit12mm</SubtypeId>
+      </Id>
+      <DisplayName>12mm Slab Raised Corner Split</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlopeCap.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGSlabRaisedCornerSplit.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>InvertedCornerTip12mm</SubtypeId>
+      </Id>
+      <DisplayName>12mm Inverted Corner Tip</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlopeCap.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGInvertedCornerTip.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>InvertedCornerBase12mm</SubtypeId>
+      </Id>
+      <DisplayName>12mm Inverted Corner Base</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlopeCap.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGInvertedCornerBase.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlabCornerSplit12mm</SubtypeId>
+      </Id>
+      <DisplayName>12mm Slab Corner Split</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlopeCap.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\AWGSlabCornerSplit.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>

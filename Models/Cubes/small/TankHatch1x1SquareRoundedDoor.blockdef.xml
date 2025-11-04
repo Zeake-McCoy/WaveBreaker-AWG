@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>TankHatch1x1SquareRoundedDoor</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\TankHatch1x1RoundCentreDoor.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\TankHatch1x1SquareRoundedDoor.mwm</Model>
+	<BlockPairName>TankHatch1x1RoundCentreDoor</BlockPairName>
+</Definition>

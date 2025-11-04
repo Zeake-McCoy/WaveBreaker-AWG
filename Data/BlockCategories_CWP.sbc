@@ -1,0 +1,234 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>AWG Armour</DisplayName>
+      <Name>AWG Armour</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/DriverHatch1x2Slope</string>
+        
+        <string>CubeBlock/C1</string>
+        <string>CubeBlock/C2</string>
+        <string>CubeBlock/C3</string>
+
+        <string>CubeBlock/ERAFlat</string>
+        <string>CubeBlock/RealERA</string>
+        <string>CubeBlock/RealERAExtended</string>
+        
+        <string>CubeBlock/KontaktAngledFull</string>
+        <string>CubeBlock/KontaktAngledSquare</string>
+        <string>CubeBlock/KontaktFlatFull</string>
+        <string>CubeBlock/KontaktSquareFull</string>
+        <string>CubeBlock/KontaktSquareCentred</string>
+        <string>CubeBlock/KontaktFlatHalf</string>
+        <string>CubeBlock/KontaktFlatFullCentred</string>
+        <string>CubeBlock/KontaktFlatHalfCentred</string>
+        
+        <string>CubeBlock/SlatFlat</string>
+        
+        <string>CubeBlock/RivetPlate4</string>
+        <string>CubeBlock/RivetPlate12</string>
+        <string>CubeBlock/RivetPlate25</string>
+        <string>CubeBlock/RivetPlate50</string>
+        <string>CubeBlock/RivetPlateThick</string>
+        <string>CubeBlock/SheetMetal1</string>
+
+        <string>CubeBlock/Slope1x1Side100mm</string>
+
+        <string>CubeBlock/4mmSlopeCap1x1</string>
+        <string>CubeBlock/12mmSlopeCap1x1</string>
+        <string>CubeBlock/25mmSlopeCap1x1</string>
+        <string>CubeBlock/50mmSlopeCap1x1</string>
+        <string>CubeBlock/100mmSlopeCap1x1</string>
+
+        <!--3 Slopes-->
+        <string>CubeBlock/New3Slope4mm1</string>
+        <string>CubeBlock/New3Slope12mm1</string>
+        <string>CubeBlock/New3Slope25mm1</string>
+        <string>CubeBlock/New3Slope50mm1</string>
+        <string>CubeBlock/New3Slope100mm1</string>
+
+        <string>CubeBlock/3SlopeConverter4Conv3</string>
+        <string>CubeBlock/3SlopeConverter12Conv3</string>
+        <string>CubeBlock/3SlopeConverter25Conv3</string>
+        <string>CubeBlock/3SlopeConverter50Conv3</string>
+        <string>CubeBlock/3SlopeConverter100Conv3</string>
+
+        <string>CubeBlock/4Slope4mm1</string>
+        <string>CubeBlock/4Slope12mm1</string>
+        <string>CubeBlock/4Slope25mm1</string>
+        <string>CubeBlock/4Slope50mm1</string>
+        <string>CubeBlock/4Slope100mm1</string>
+        <string>CubeBlock/4SlopeActual100mm1</string>
+        
+        <!--6 Slopes-->
+        <string>CubeBlock/6Slope4mm1</string>
+        <string>CubeBlock/6Slope12mm1</string>
+        <string>CubeBlock/6Slope25mm1</string>
+        <string>CubeBlock/6Slope50mm1</string>
+        <string>CubeBlock/6Slope100mm1</string>
+
+        <string>CubeBlock/7Slope1</string>
+        <string>CubeBlock/7Slope12mm1</string>
+
+        <!-->8 Slopes<-->
+        <string>CubeBlock/4mm8Slope1</string>
+        <string>CubeBlock/12mm8Slope1</string>
+        <string>CubeBlock/25mm8Slope1</string>
+        <string>CubeBlock/50mm8Slope1</string>
+        <string>CubeBlock/100mm8Slope1</string>
+
+        <!-->8 Slope Corners<-->
+        <string>CubeBlock/4mm8SlopeCorner1</string>
+        <string>CubeBlock/12mm8SlopeCorner1</string>
+        <string>CubeBlock/25mm8SlopeCorner1</string>
+        <string>CubeBlock/50mm8SlopeCorner1</string>
+        <string>CubeBlock/100mm8SlopeCorner1</string>
+
+        <!-->8 Slope Sideplates<-->
+        <string>CubeBlock/4mm8SlopeSideplate1Left</string>
+        <string>CubeBlock/12mm8SlopeSideplate1Left</string>
+        <string>CubeBlock/25mm8SlopeSideplate1Left</string>
+        <string>CubeBlock/50mm8SlopeSideplate1Left</string>
+        <string>CubeBlock/100mm8SlopeSideplate1Left</string>
+
+        <string>CubeBlock/AWGInvertedCorner100mm</string>
+        <string>CubeBlock/AWGInvertedCorner50mm</string>
+        <string>CubeBlock/AWGInvertedCorner25mm</string>
+        <string>CubeBlock/AWGInvertedCorner12mm</string>
+        <string>CubeBlock/AWGInvertedCorner4mm</string>
+
+        <string>CubeBlock/MantletTubeFiller</string>
+        <string>CubeBlock/SlopedCornerBase4mm</string>
+        <string>CubeBlock/SlopedCornerBase12mm</string>
+        <string>CubeBlock/SlopedCornerBase25mm</string>
+        <string>CubeBlock/SlopedCornerBase50mm</string>
+        <string>CubeBlock/SlopedCornerBase100mm</string>
+        
+        <string>CubeBlock/4mm4x1CornerFillerBaseLeft</string>
+        <string>CubeBlock/12mm4x1CornerFillerBaseLeft</string>
+        <string>CubeBlock/25mm4x1CornerFillerBaseLeft</string>
+        <string>CubeBlock/50mm4x1CornerFillerBaseLeft</string>
+        <string>CubeBlock/100mm4x1CornerFillerBaseLeft</string>
+        
+        <string>CubeBlock/4mm4SlopeSideplate1Left</string>
+        <string>CubeBlock/12mm4SlopeSideplate1Left</string>
+        <string>CubeBlock/25mm4SlopeSideplate1Left</string>
+        <string>CubeBlock/50mm4SlopeSideplate1Left</string>
+        <string>CubeBlock/100mm4SlopeSideplate1Left</string>
+        
+        <string>CubeBlock/4mmOffset1x2SlopeTip</string>
+        <string>CubeBlock/12mmOffset1x2SlopeTip</string>
+        <string>CubeBlock/25mmOffset1x2SlopeTip</string>
+        <string>CubeBlock/50mmOffset1x2SlopeTip</string>
+        <string>CubeBlock/100mmOffset1x2SlopeTip</string>
+        
+        <string>CubeBlock/Inverted1x2SlopeBaseLeft</string>
+        <string>CubeBlock/PantherCornerLeft</string>
+        <string>CubeBlock/PantherCornerRight</string>
+        <string>CubeBlock/CircularMantletCentre</string>
+        <string>CubeBlock/ReflectiveCube</string>
+        <string>CubeBlock/Reflective1x1Plate</string>
+        <string>CubeBlock/E100SkirtSideLeft</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>AWG Decor</DisplayName>
+      <Name>AWG Decor</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AWGProgrammableComputer</string>
+        <string>CubeBlock/RivetMantletFlat</string>
+        <string>CubeBlock/Brake100mm</string>
+        <string>CubeBlock/SheetMetalLarge</string>
+        <string>CubeBlock/StorageBarrel</string>
+        <string>CubeBlock/AWGButton</string>
+        <string>CubeBlock/AWGHandles</string>
+        <string>CubeBlock/SignStop</string>
+        <string>CubeBlock/TA</string>
+        <string>CubeBlock/AWGRadioBlock</string>
+        <string>CubeBlock/TrackLink1</string>
+        <string>CubeBlock/ExcelsiorTrack</string>
+        <string>CubeBlock/CupolaCamFull</string>
+        <string>CubeBlock/ModernCupolaCentred</string>
+        <string>CubeBlock/ModernCupolaCentredOffset</string>
+        <string>CubeBlock/ModernCupola2x2</string>
+        <string>CubeBlock/50CalMount</string>
+        <string>CubeBlock/Shovel</string>
+        <string>CubeBlock/IRSpotlight</string>
+        <string>CubeBlock/MantletBlock</string>
+        <string>CubeBlock/3x3Ring</string>
+        <string>CubeBlock/Log5x1</string>
+        <string>CubeBlock/LogTrio</string>
+        <string>CubeBlock/FanFull</string>
+        <string>CubeBlock/FanHalf</string>
+        <string>CubeBlock/HalfVisionBlock</string>
+        <string>CubeBlock/VisBlockFlat</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>AWG Fuel/Power</DisplayName>
+      <Name>AWG Fuel/Power</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/BatteryTitan</string>
+        <string>HydrogenEngine/AWGHydroEngine</string>
+        <string>HydrogenEngine/AWGSHEngine</string>
+        <string>HydrogenEngine/AWGSmallHydro</string>
+        <string>HydrogenEngine/AWGRadial</string>
+        <string>CubeBlock/AWGRadialCowling</string>
+        <string>CubeBlock/Transmission</string>
+        <string>OxygenTank/Fuel1x1</string>
+        <string>OxygenTank/Fuel2x3</string>
+        <string>OxygenTank/1x2Barrel</string>
+        <string>OxygenTank/2x4Barrel</string>
+        <string>OxygenTank/1x2BarrelH2</string>
+        <string>OxygenTank/2x4BarrelH2</string>
+        <string>CubeBlock/AWG1Connector</string>
+        <string>CubeBlock/AWG3Connector</string>
+        <string>CubeBlock/AWGConveyorCube</string>
+        <string>CubeBlock/AWGConveyorPipePlusJunction</string>
+        <string>CubeBlock/AWGConveyorTubeBlock</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>AWG Thrust</DisplayName>
+      <Name>AWG Thrust</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>Thrust/AWGPropLightTest</string>
+        <string>Thrust/AWGPropMedium</string>
+        <string>Thrust/AWGPropHeavy</string>
+        <string>Thrust/WaterJetSmall</string>
+        <string>Thrust/WaterJetSmallExposed</string>
+        <string>Thrust/WaterJetSmallTorp</string>
+        <string>Thrust/WaterJetSmallTorpExposed</string>
+        <string>Thrust/WaterJetLarge</string>
+		<string>Thrust/Raptor</string>
+        <string>Thrust/AWGPlanePropSmall</string>
+        <string>Thrust/AWGPlanePropMedium</string>
+        <string>Thrust/AWGPlanePropHeavy</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>RocketMortar380mmLong</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\GunBaseLoaded.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="14" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\RocketMortar380mmLong.mwm</Model>
+	<BlockPairName>GunBaseLoaded</BlockPairName>
+</Definition>

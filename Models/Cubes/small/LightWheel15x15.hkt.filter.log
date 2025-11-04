@@ -1,0 +1,13 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\abbot\AppData\Local\Temp\space_engineers_u9xiy4ab.hko -p C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\LightWheel15x15.hkt C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\LightWheel15x15.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Fri Jun 02 03:01:22 2023, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        [0xabbabfd4] Warning : 'Cylinder.006' - Calculated 'extra radius' for cylinder shape is 0. Performance may be affected.
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\LightWheel15x15.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 1 Warnings ==========

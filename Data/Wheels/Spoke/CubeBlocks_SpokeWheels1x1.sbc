@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>   
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>SpokeWheel1x1Suspension</SubtypeId>
+      </Id>
+      <DisplayName>AWG 1x1 Spoke Wheel Suspension</DisplayName>
+      <Icon>NewIcons\SpokeWheel15x15.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CharSuspension.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.078</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>SpokeWheel1x1</RotorPart>
+      <PropulsionForce>500</PropulsionForce>
+      <MinHeight>-0.5</MinHeight>
+      <MaxHeight>0.5</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>24000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Wheel</TypeId>
+          <SubtypeId>SpokeWheel1x1</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    
+    </Definition>
+    
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>SpokeWheel1x1</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>AWG 1x1 Spoke Wheel</DisplayName>
+      <Icon>NewIcons\SpokeWheel15x15.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\SpokeWheel1x1.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SmallTube" Count="2" />
+      </Components>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+
+
+      <BlockPairName>SpokeWheel1x1</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    
+
+  </CubeBlocks>
+</Definitions>

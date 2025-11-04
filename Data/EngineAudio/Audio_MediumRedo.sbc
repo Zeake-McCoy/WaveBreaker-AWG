@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>EngineMediumLoopInternal</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>15</MaxDistance>
+      <PitchVariation>7</PitchVariation>
+      <Volume>2.5</Volume>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="7" Distance="10" Sound="EngineMediumLoopExternal" />
+      </DistantSounds>
+      <!--><UpdateDistance>15</UpdateDistance>-->
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MediumEngine\Inside\MediumEngineStart.wav</Start>
+          <Loop>Audio\MediumEngine\Inside\MediumEngineLoop.wav</Loop>
+          <End>Audio\MediumEngine\Inside\MediumEngineStop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>EngineMediumLoopExternal</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>75</MaxDistance>
+      <PitchVariation>7</PitchVariation>
+      <Volume>1</Volume>
+      <UpdateDistance>30</UpdateDistance>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MediumEngine\Outside\MediumEngineOutsideStart.wav</Start>
+          <Loop>Audio\MediumEngine\Outside\MediumEngineOutsideLoop.wav</Loop>
+          <End>Audio\MediumEngine\Outside\MediumEngineOutsideStop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>
+       

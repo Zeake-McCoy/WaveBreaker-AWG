@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\abbot\AppData\Local\Temp\space_engineers_c56jpxp9.hko -p C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\OverlordArmour\PikeRightLower2.hkt C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\OverlordArmour\PikeRightLower2.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Thu Jul 06 18:09:12 2023, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\OverlordArmour\PikeRightLower2.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

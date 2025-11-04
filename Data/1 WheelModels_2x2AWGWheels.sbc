@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<WheelModels>
+
+		<WheelModel>
+		  <Id>
+			<TypeId>WheelModelsDefinition</TypeId>
+			<SubtypeId>RealWheelAWG2x2</SubtypeId>
+		  </Id>
+		  <AngularVelocityThreshold>10</AngularVelocityThreshold>
+		</WheelModel>
+		<WheelModel>
+		  <Id>
+			<TypeId>WheelModelsDefinition</TypeId>
+			<SubtypeId>RealWheelAWG2x2mirrored</SubtypeId>
+		  </Id>
+		  <AngularVelocityThreshold>10</AngularVelocityThreshold>
+		</WheelModel>
+
+    <WheelModel>
+      <Id>
+        <TypeId>WheelModelsDefinition</TypeId>
+        <SubtypeId>RealWheelAWG2x2</SubtypeId>
+      </Id>
+      <AngularVelocityThreshold>10</AngularVelocityThreshold>
+    </WheelModel>
+    <WheelModel>
+      <Id>
+        <TypeId>WheelModelsDefinition</TypeId>
+        <SubtypeId>RealWheelAWG2x2mirrored</SubtypeId>
+      </Id>
+      <AngularVelocityThreshold>10</AngularVelocityThreshold>
+    </WheelModel>
+	</WheelModels>
+</Definitions>

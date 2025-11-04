@@ -1,0 +1,69 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmpx4ie2tm6 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:SpokeWheel1x1.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\RubberWheels_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 518 517 516)
+: WARNING: 
+    Model contains degenerated triangle (indices 576 575 574)
+: WARNING: 
+    Model contains degenerated triangle (indices 1305 1303 1302)
+: WARNING: 
+    Model contains degenerated triangle (indices 1363 1361 1360)
+C:\Users\abbot\AppData\Local\Temp\tmpx4ie2tm6\Content\SpokeWheel1x1.fbx: Processed
+: 
+    : Finished in 0.1s

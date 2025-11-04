@@ -1,0 +1,37 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmphuequday 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:TankHatch1x1Door.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\abbot\AppData\Local\Temp\tmphuequday\Content\TankHatch1x1Door.fbx: Processed
+: 
+    : Finished in 0.1s

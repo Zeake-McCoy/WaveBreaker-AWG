@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>Ladder2</TypeId>
+        <SubtypeId>AWGLadder2x2</SubtypeId>
+      </Id>
+      <DisplayName>AWG Ladder (2x2)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
+      <Description>Description_Ladder</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>1</Z>
+      </Size>
+      <ModelOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </ModelOffset>
+      <Model>Models\Cubes\Small\AWGLadder2x2D.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <PhysicsOption>Box</PhysicsOption>
+      <ExcludedAreaForCamera>
+        <BoundingBox>
+          <Min>
+            <X>-0.25</X>
+            <Y>-0.25</Y>
+            <Z>-0.25</Z>
+          </Min>
+          <Max>
+            <X>0.25</X>
+            <Y>-0.25</Y>
+            <Z>-0.017</Z>
+          </Max>
+        </BoundingBox>
+        <BoundingBox>
+          <Min>
+            <X>-0.25</X>
+            <Y>-0.25</Y>
+            <Z>-0.25</Z>
+          </Min>
+          <Max>
+            <X>0.25</X>
+            <Y>-0.25</Y>
+            <Z>-0.017</Z>
+          </Max>
+        </BoundingBox>
+      </ExcludedAreaForCamera>
+      <CenterOffset xsi:nil="true" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

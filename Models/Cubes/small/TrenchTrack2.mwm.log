@@ -1,0 +1,81 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmpakyfa50b 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:TrenchTrack2.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 12640 12645 12644)
+: WARNING: 
+    Model contains degenerated triangle (indices 12712 12711 12710)
+: WARNING: 
+    Model contains degenerated triangle (indices 12820 12825 12824)
+: WARNING: 
+    Model contains degenerated triangle (indices 12858 12863 12862)
+: WARNING: 
+    Model contains degenerated triangle (indices 12874 12873 12872)
+: WARNING: 
+    Model contains degenerated triangle (indices 12850 12881 12880)
+: WARNING: 
+    Model contains degenerated triangle (indices 13012 13017 13016)
+: WARNING: 
+    Model contains degenerated triangle (indices 13015 13013 13012)
+: WARNING: 
+    Model contains degenerated triangle (indices 13018 13023 13022)
+: WARNING: 
+    Model contains degenerated triangle (indices 13021 13019 13018)
+: WARNING: 
+    Model contains degenerated triangle (indices 13024 13029 13028)
+: WARNING: 
+    Model contains degenerated triangle (indices 13027 13025 13024)
+: WARNING: 
+    Model contains degenerated triangle (indices 13030 13035 13034)
+: WARNING: 
+    Model contains degenerated triangle (indices 13033 13031 13030)
+: WARNING: 
+    Model contains degenerated triangle (indices 13198 12793 12794)
+: WARNING: 
+    Model contains degenerated triangle (indices 13234 12915 12916)
+: WARNING: 
+    Model contains degenerated triangle (indices 31311 31310 31309)
+: WARNING: 
+    Model contains degenerated triangle (indices 32272 32271 32270)
+: WARNING: 
+    Model contains degenerated triangle (indices 33444 33443 33442)
+: WARNING: 
+    Model contains degenerated triangle (indices 34616 34615 34614)
+: WARNING: 
+    Model contains degenerated triangle (indices 34827 34826 34825)
+: WARNING: 
+    Model contains degenerated triangle (indices 39515 39514 39513)
+: WARNING: 
+    Model contains degenerated triangle (indices 46337 46336 46335)
+: WARNING: 
+    Model contains degenerated triangle (indices 48892 48891 48890)
+: WARNING: 
+    Model contains degenerated triangle (indices 51236 51235 51234)
+: WARNING: 
+    Model contains degenerated triangle (indices 53369 53368 53367)
+: WARNING: 
+    Model contains degenerated triangle (indices 53580 53579 53578)
+: WARNING: 
+    Model contains degenerated triangle (indices 58268 58267 58266)
+C:\Users\abbot\AppData\Local\Temp\tmpakyfa50b\Content\TrenchTrack2.fbx: Processed
+: 
+    : Finished in 0.3s

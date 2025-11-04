@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>SlopeHalf1x1Side</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\34SlopeHalf1x1Side.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\SlopeHalf1x1Side.mwm</Model>
+	<BlockPairName>34SlopeHalf1x1Side</BlockPairName>
+</Definition>

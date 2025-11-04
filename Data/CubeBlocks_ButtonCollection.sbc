@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    
+    <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>AWGButton</SubtypeId>
+      </Id>
+      <DisplayName>AWG Button</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Button.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGButton.mwm</Model>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>ButtonPanel</TypeId>
+          <SubtypeId>CubeButton</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>ButtonPanel</TypeId>
+          <SubtypeId>HalfButton</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>ButtonPanel</TypeId>
+          <SubtypeId>PlateButton</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>ButtonPanel</TypeId>
+          <SubtypeId>MultiButton</SubtypeId>
+        </BlockVariant>
+      
+      </BlockVariants>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>1</ButtonCount>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\IconSquareHighlight.dds</string>
+      </ButtonSymbols>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>      
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>CubeButton</SubtypeId>
+      </Id>
+      <DisplayName>AWG Button (Cube)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Button.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CubeButton.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>1</ButtonCount>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\IconSquareHighlight.dds</string>
+      </ButtonSymbols>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>      
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>HalfButton</SubtypeId>
+      </Id>
+      <DisplayName>AWG Button (Half Cube)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Button.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\HalfButton.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>1</ButtonCount>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\IconSquareHighlight.dds</string>
+      </ButtonSymbols>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>      
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>PlateButton</SubtypeId>
+      </Id>
+      <DisplayName>AWG Button (Plate)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Button.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\PlateButton.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>1</ButtonCount>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\IconSquareHighlight.dds</string>
+      </ButtonSymbols>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>MultiButton</SubtypeId>
+      </Id>
+      <DisplayName>AWG Button (Multi)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Button.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\MultiButton.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>4</ButtonCount>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\IconSquareHighlight.dds</string>
+      </ButtonSymbols>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

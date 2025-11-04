@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>ReflectiveCube</SubtypeId>
+      </Id>
+      <DisplayName>Reflective Armour Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\25Plate.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Reflective\ReflectiveCube.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>Smoke_HandDrillDust_Ice</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>2</PCU>
+      <BlockVariants>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Reflective1x1Plate</SubtypeId>
+        </BlockVariant>
+        
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Reflective1x1Plate</SubtypeId>
+      </Id>
+      <DisplayName>Reflective 1x1 Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\25Plate.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Reflective\Reflective1x1Plate.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>Smoke_HandDrillDust_Ice</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>2</PCU>
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>

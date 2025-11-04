@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>   
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>CharSuspensionInner</SubtypeId>
+      </Id>
+      <DisplayName>AWG 1x1 Roller Wheel Suspension Inner</DisplayName>
+      <Icon>NewIcons\OffroadWheelSuspension2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CharSuspension.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.078</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>CharWheelInner</RotorPart>
+      <PropulsionForce>500</PropulsionForce>
+      <MinHeight>-0.5</MinHeight>
+      <MaxHeight>0.5</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>24000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>MotorSuspension</TypeId>
+          <SubtypeId>CharSuspensionOuter</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>MotorSuspension</TypeId>
+          <SubtypeId>CharSuspensionRoller</SubtypeId>
+        </BlockVariant>
+          
+        <BlockVariant>
+          <TypeId>MotorSuspension</TypeId>
+          <SubtypeId>CharSuspensionBogie</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>Wheel</TypeId>
+          <SubtypeId>CharSuspensionParts</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>MotorSuspension</TypeId>
+          <SubtypeId>CharSuspensionBogieMovable</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>Wheel</TypeId>
+          <SubtypeId>CharSuspensionPartsMovable</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>Wheel</TypeId>
+          <SubtypeId>CharWheelInner</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>Wheel</TypeId>
+          <SubtypeId>CharWheelOuter</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>Wheel</TypeId>
+          <SubtypeId>CharWheelRoller</SubtypeId>
+        </BlockVariant>
+        
+      </BlockVariants>
+    
+    </Definition>
+    
+  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>CharSuspensionOuter</SubtypeId>
+      </Id>
+      <DisplayName>AWG 1x1 Roller Wheel Suspension Outer</DisplayName>
+      <Icon>NewIcons\OffroadWheelSuspension2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CharSuspension.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.078</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>CharWheelOuter</RotorPart>
+      <PropulsionForce>500</PropulsionForce>
+      <MinHeight>-0.5</MinHeight>
+      <MaxHeight>0.5</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>24000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>CharSuspensionRoller</SubtypeId>
+      </Id>
+      <DisplayName>AWG 1x1 Roller Wheel Suspension Return Roller</DisplayName>
+      <Icon>NewIcons\OffroadWheelSuspension2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CharSuspension.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.04</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>CharWheelRoller</RotorPart>
+      <PropulsionForce>500</PropulsionForce>
+      <MinHeight>-0.5</MinHeight>
+      <MaxHeight>0.5</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>24000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>CharSuspensionBogie</SubtypeId>
+      </Id>
+      <DisplayName>AWG Roller Leaf Spring Bogies (MOVABLE)</DisplayName>
+      <Icon>NewIcons\OffroadWheelSuspension2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CharSuspension.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.04</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>CharSuspensionParts</RotorPart>
+      <MinAngleDeg>-0.0001</MinAngleDeg>
+      <MaxAngleDeg>0.0001</MaxAngleDeg>
+      <PropulsionForce>0</PropulsionForce>
+      <MinHeight>-1</MinHeight>
+      <MaxHeight>1</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>24000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    
+    </Definition>  
+    
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>CharSuspensionBogieMovable</SubtypeId>
+      </Id>
+      <DisplayName>AWG Roller Leaf Spring Bogies (MOVABLE, No Offset)</DisplayName>
+      <Icon>NewIcons\OffroadWheelSuspension2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CharSuspension.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <RequiredIdlePowerInput>0</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>CharSuspensionPartsMovable</RotorPart>
+      <MinAngleDeg>-0.01</MinAngleDeg>
+      <MaxAngleDeg>0.01</MaxAngleDeg>
+      <PropulsionForce>0</PropulsionForce>
+      <MinHeight>-1</MinHeight>
+      <MaxHeight>1</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>24000</AxleFriction>
+      <SteeringSpeed>0</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    
+    </Definition>
+      
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>CharSuspensionPartsMovable</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>AWG Roller Wheel Leaf Spring NO OFFSET</DisplayName>
+      <Icon>NewIcons\OffroadWheel2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\CharMantletsMovable.mwm</Model>
+      
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+
+
+      <BlockPairName>CharSuspensionPartsMovable</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+      
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>CharSuspensionParts</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>AWG Roller Wheel Leaf Spring DECORATION/STATIC, OFFSET</DisplayName>
+      <Icon>NewIcons\OffroadWheel2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\CharMantlets.mwm</Model>
+      
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+
+
+      <BlockPairName>CharSuspensionParts</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+      
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>CharWheelInner</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>AWG 1x1 Roller Wheel Inner</DisplayName>
+      <Icon>NewIcons\OffroadWheel2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\CharWheelInner.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SmallTube" Count="2" />
+      </Components>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+
+
+      <BlockPairName>CharWheelInner</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    
+  <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>CharWheelOuter</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>AWG 1x1 Roller Wheel Outer</DisplayName>
+      <Icon>NewIcons\OffroadWheel2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\CharWheelOuter.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+
+
+      <BlockPairName>CharWheelOuter</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+
+<Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>CharWheelRoller</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>AWG 1x1 Roller Wheel Inner</DisplayName>
+      <Icon>NewIcons\OffroadWheel2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\CharWheelRoller.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+
+
+      <BlockPairName>CharWheelRoller</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>  
+
+  </CubeBlocks>
+</Definitions>

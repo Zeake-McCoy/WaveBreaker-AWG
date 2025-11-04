@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankHatch1x1RoundCentre</SubtypeId>
+      </Id>
+      <DisplayName>AWG 1x1 Tank Hatch (Centre)</DisplayName>
+      <Description>Openable tank hatch</Description>
+      <Icon>NewIcons\HatchDoor1x1.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankHatch1x1RoundCentre.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankHatch1x1SquareRoundedDoor</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Z</RotationAxis>
+          <PivotPosition x="0.25215" y="0.0352" z="0"/>
+          <MaxOpen>-135</MaxOpen>
+          <Speed>100</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" EndX="1.0" StartY="0.1" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.0" EndX="1.0" StartY="1.0" EndY="0.1" />
+      </MountPoints>
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankHatch1x1Round</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankHatch2x2RoundCentre</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankHatch2x2Round</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankDoor3x4Flat</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankSideAccessDoor3x4Flat</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankDoor3x4Centred</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankDoor2x1</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>TankDoor2x1Centred</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>StowageOpenableHalf</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankHatch1x1Round</SubtypeId>
+      </Id>
+      <DisplayName>AWG 1x1 Tank Hatch (Flat)</DisplayName>
+      <Description>Openable Tank Hatch</Description>
+      <Icon>NewIcons\HatchDoor1x1.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankHatch1x1Round.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" EndX="1.0" StartY="0.1" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.0" EndX="1.0" StartY="1.0" EndY="0.1" />
+        <MountPoint Side="Bottom" StartX="0.1" EndX="0.9" StartY="0.9" EndY="0.1" />
+      </MountPoints>
+          
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankHatch1x1Door</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Z</RotationAxis>
+          <PivotPosition x="0.25215" y="-0.20139" z="0"/>
+          <MaxOpen>-135</MaxOpen>
+          <Speed>100</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankHatch2x2RoundCentre</SubtypeId>
+      </Id>
+      <DisplayName>AWG 2x2 Tank Hatch (Centre)</DisplayName>
+      <Description>Openable Tank Hatch</Description>
+      <Icon>NewIcons\HatchDoor2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankHatch2x2RoundCentre.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" EndX="1.0" StartY="0.1" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.0" EndX="1.0" StartY="1.0" EndY="0.1" />
+      </MountPoints>
+          
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankHatch2x2RoundCentreDoor</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Z</RotationAxis>
+          <PivotPosition x="0.37822" y="0.04517" z="0.0000004"/>
+          <MaxOpen>-135</MaxOpen>
+          <Speed>100</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankHatch2x2Round</SubtypeId>
+      </Id>
+      <DisplayName>AWG 2x2 Tank Hatch (Flat)</DisplayName>
+      <Description>Openable Tank Hatch</Description>
+      <Icon>NewIcons\HatchDoor2x2.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankHatch2x2Round.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankHatch2x2RoundDoor</Name>
+        </SubpartDefinition>
+      </Subparts>
+      
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.1" EndX="0.9" StartY="0.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" EndX="1.0" StartY="0.1" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.0" EndX="1.0" StartY="1.0" EndY="0.1" />
+        <MountPoint Side="Bottom" StartX="0.1" EndX="0.9" StartY="0.9" EndY="0.1" />
+      </MountPoints>
+          
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Z</RotationAxis>
+          <PivotPosition x="0.37822" y="-0.18983" z="0.0000004"/>
+          <MaxOpen>-135</MaxOpen>
+          <Speed>100</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankDoor3x4Flat</SubtypeId>
+      </Id>
+      <DisplayName>AWG 3x4 Tank Door (Flat)</DisplayName>
+      <Description>Openable Tank Door</Description>
+      <Icon>NewIcons\Hatch40053x4.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankDoor3x4Flat.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="4" StartY="0" EndX="5" EndY="1" />
+      </MountPoints>
+
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankDoor3x4FlatDoor</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Y</RotationAxis>
+          <PivotPosition x="-0.594" y="0" z="0.19"/>
+          <MaxOpen>90</MaxOpen>
+          <Speed>75</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankDoor3x4Centred</SubtypeId>
+      </Id>
+      <DisplayName>AWG 3x4 Tank Door (Centred)</DisplayName>
+      <Description>Openable Tank Door</Description>
+      <Icon>NewIcons\Hatch40053x4.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="1" />
+      <ModelOffset x="0" y="0" z="-0.25" />
+      <Model>Models\Cubes\Small\TankDoor3x4Flat.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="4" StartY="0" EndX="5" EndY="1" />
+      </MountPoints>
+
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankDoor3x4FlatDoor</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Y</RotationAxis>
+          <PivotPosition x="-0.594" y="0" z="0.19"/>
+          <MaxOpen>90</MaxOpen>
+          <Speed>75</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankSideAccessDoor3x4Flat</SubtypeId>
+      </Id>
+      <DisplayName>AWG 3x4 Tank Side Access Door (Flat)</DisplayName>
+      <Description>Openable Tank Door</Description>
+      <Icon>NewIcons\HatchDoor3x4.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSideAccessDoor3x4Flat.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="4" StartY="0" EndX="5" EndY="1" />
+      </MountPoints>
+
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankSideAccessDoor3x4</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Y</RotationAxis>
+          <PivotPosition x="-0.594" y="0" z="0.19"/>
+          <MaxOpen>90</MaxOpen>
+          <Speed>75</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankDoor2x1</SubtypeId>
+      </Id>
+      <DisplayName>AWG 2x3 Tank Door (Flat)</DisplayName>
+      <Description>Openable Tank Door</Description>
+      <Icon>NewIcons\HatchDoor2x3.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankDoor2x1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="4" StartY="0" EndX="5" EndY="1" />
+      </MountPoints>
+
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankDoor2x1Door</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Y</RotationAxis>
+          <PivotPosition x="-0.48439" y="0" z="0.223"/>
+          <MaxOpen>105</MaxOpen>
+          <Speed>75</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankDoor2x1Centred</SubtypeId>
+      </Id>
+      <DisplayName>AWG 2x3 Tank Door (Centred)</DisplayName>
+      <Description>Openable Tank Door</Description>
+      <Icon>NewIcons\HatchDoor2x3.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="-0.25" />
+      <Model>Models\Cubes\Small\TankDoor2x1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="4" StartY="0" EndX="5" EndY="1" />
+      </MountPoints>
+
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankDoor2x1Door</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Y</RotationAxis>
+          <PivotPosition x="-0.48439" y="0" z="0.223"/>
+          <MaxOpen>105</MaxOpen>
+          <Speed>75</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+	</CubeBlocks>
+</Definitions>

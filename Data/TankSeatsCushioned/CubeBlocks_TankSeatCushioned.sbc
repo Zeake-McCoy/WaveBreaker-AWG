@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushioned</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushioned01.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <HasInventory>false</HasInventory>
+      <IsAirTight>false</IsAirTight>
+
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedHigher</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedHigherEvenWidth</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedForwardsHigherEvenWidth</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedEvenWidth</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedForwards</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedForwardsHigher</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedForwardsEvenWidth</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedEvenWidth</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned, Even)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushioned01.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <HasInventory>false</HasInventory>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedForwards</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned, Forward Offset)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedForwards.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <IsAirTight>false</IsAirTight>
+      <HasInventory>false</HasInventory>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedHigherEvenWidth</SubtypeId><!--use-->
+      </Id>
+      <DisplayName>Tank Seat (Cushioned, Higher, Even)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedHigher.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <HasInventory>false</HasInventory>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedForwardsHigherEvenWidth</SubtypeId><!--use-->
+      </Id>
+      <DisplayName>Tank Seat (Cushioned, Forward Offset, Higher, Even)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedForwardsHigher.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <IsAirTight>false</IsAirTight>
+      <HasInventory>false</HasInventory>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedForwardsHigher</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned, Forward Offset, Higher)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedForwardsHigher.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <IsAirTight>false</IsAirTight>
+      <HasInventory>false</HasInventory>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedForwardsEvenWidth</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned, Forward Offset, Even)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedForwards.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <IsAirTight>false</IsAirTight>
+      <HasInventory>false</HasInventory>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedHigher</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned, Higher)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedHigher.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <IsAirTight>false</IsAirTight>
+      <HasInventory>false</HasInventory>
+    </Definition>
+    
+<!-->-->
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedMid</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned Extended)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedMid01.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <HasInventory>false</HasInventory>
+      <IsAirTight>false</IsAirTight>
+
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedMidEvenWidth</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedMidForwards</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>Cockpit</TypeId>
+          <SubtypeId>TankSeatCushionedMidForwardsEvenWidth</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedMidEvenWidth</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned Extended, Even)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedMid01.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <HasInventory>false</HasInventory>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedMidForwards</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned Extended, Forward Offset)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedMidForwards.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <IsAirTight>false</IsAirTight>
+      <HasInventory>false</HasInventory>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>TankSeatCushionedMidForwardsEvenWidth</SubtypeId>
+      </Id>
+      <DisplayName>Tank Seat (Cushioned Extended, Forward Offset, Even)</DisplayName>
+      <Icon>NewIcons\CushionSeat.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TankSeatCushionedMidForwards.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <IsAirTight>false</IsAirTight>
+      <HasInventory>false</HasInventory>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    
+  </CubeBlocks>
+</Definitions>

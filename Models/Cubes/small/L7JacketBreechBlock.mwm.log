@@ -1,0 +1,19 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmpszvgvlvy 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:L7JacketBreechBlock.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMattePlastic_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalScratchedDarker_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 1181 1166 1167)
+C:\Users\abbot\AppData\Local\Temp\tmpszvgvlvy\Content\L7JacketBreechBlock.fbx: Processed
+: 
+    : Finished in 0.1s

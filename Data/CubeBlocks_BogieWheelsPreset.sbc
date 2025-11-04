@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>   
+  <!-- Wheel 3x3 Parts -->
+
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>BogieWheel1</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>HVSSBogieWheel1</DisplayName>
+      <Icon>NewIcons\BogieWheel.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\BogieWheel3.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>BogieWheel1</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>BogieSuspension1</SubtypeId>
+      </Id>
+      <DisplayName>HVSS (AWG Wheel Suspension)</DisplayName>
+      <Icon>NewIcons\BogieSuspension.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BogieSuspension2.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>MotorSuspension</TypeId>
+          <SubtypeId>BogieSuspensionOffset1</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorSuspension</TypeId>
+          <SubtypeId>BogieSuspensionOffset2</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorSuspension</TypeId>
+          <SubtypeId>BogieSuspensionSmaller</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>BogieWheelDecor</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.07</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>BogieWheel1</RotorPart>
+      <PropulsionForce>750</PropulsionForce>
+      <MinHeight>-0.2</MinHeight>
+      <MaxHeight>0.2</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>BogieSuspensionOffset1</SubtypeId>
+      </Id>
+      <DisplayName>HVSS Offset 1 (AWG Wheel Suspension)</DisplayName>
+      <Icon>NewIcons\BogieSuspension.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BogieSuspensionOffset01.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.07</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>BogieWheel1</RotorPart>
+      <PropulsionForce>750</PropulsionForce>
+      <MinHeight>-0.2</MinHeight>
+      <MaxHeight>0.2</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>BogieSuspensionOffset2</SubtypeId>
+      </Id>
+      <DisplayName>HVSS Offset 2 (AWG Wheel Suspension)</DisplayName>
+      <Icon>NewIcons\BogieSuspension.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BogieSuspensionOffset02.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.07</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.0001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>BogieWheel1</RotorPart>
+      <PropulsionForce>750</PropulsionForce>
+      <MinHeight>-0.2</MinHeight>
+      <MaxHeight>0.2</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>BogieWheelSmaller</SubtypeId>
+      </Id>
+      <Public>true</Public>
+      <DisplayName>HVSSBogieWheelSmaller</DisplayName>
+      <Icon>NewIcons\BogieWheel.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\BogieWheelSmaller.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>BogieWheelSmaller</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>BogieSuspensionSmaller</SubtypeId>
+      </Id>
+      <DisplayName>HVSS Small (AWG Wheel Suspension)</DisplayName>
+      <Icon>NewIcons\BogieSuspension.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BogieSuspensionSmall.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.03</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.001</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>BogieWheelSmaller</RotorPart>
+      <PropulsionForce>500</PropulsionForce>
+      <MinHeight>-0.2</MinHeight>
+      <MaxHeight>0.2</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

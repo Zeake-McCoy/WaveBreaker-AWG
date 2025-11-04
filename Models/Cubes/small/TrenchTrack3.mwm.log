@@ -1,0 +1,45 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmpnq5e4qi6 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:TrenchTrack3.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 30221 30220 30219)
+: WARNING: 
+    Model contains degenerated triangle (indices 31393 31392 31391)
+: WARNING: 
+    Model contains degenerated triangle (indices 35120 35119 35118)
+: WARNING: 
+    Model contains degenerated triangle (indices 36292 36291 36290)
+: WARNING: 
+    Model contains degenerated triangle (indices 38425 38424 38423)
+: WARNING: 
+    Model contains degenerated triangle (indices 49184 49183 49182)
+: WARNING: 
+    Model contains degenerated triangle (indices 51317 51316 51315)
+: WARNING: 
+    Model contains degenerated triangle (indices 53872 53871 53870)
+: WARNING: 
+    Model contains degenerated triangle (indices 54833 54832 54831)
+: WARNING: 
+    Model contains degenerated triangle (indices 60693 60692 60691)
+C:\Users\abbot\AppData\Local\Temp\tmpnq5e4qi6\Content\TrenchTrack3.fbx: Processed
+: 
+    : Finished in 0.3s

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+			<Id>
+				<TypeId>AdvancedDoor</TypeId>
+				<SubtypeId>StowageOpenableHalf</SubtypeId>
+			</Id>
+			<DisplayName>AWG Stowage Box (Openable)</DisplayName>
+			<Description>Openable stowage box</Description>
+			<Icon>NewIcons\Stowage1.png</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\StowageOpenableHalf2.mwm</Model>
+			<Components>
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InteriorPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>StowageOpenableHalf</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+			<DisassembleRatio>1.5</DisassembleRatio>
+			<PowerConsumptionIdle>0</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+			<Subparts>
+				<SubpartDefinition>
+					<Name>StowageOpenableHalfDoor</Name>
+				</SubpartDefinition>
+			</Subparts>
+			<OpeningSequence>
+				<Opening>
+					<IDs>0</IDs>
+					<Move>Rotate</Move><!--Slide for linear-->
+					<RotationAxis>Z</RotationAxis>
+					<PivotPosition x="-0.25" y="-0.06645" z="0" />
+					<MaxOpen>65</MaxOpen>
+					<Speed>100</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+					<OpenSound></OpenSound>
+					<CloseSound></CloseSound>
+				</Opening>
+			</OpeningSequence>
+			<PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

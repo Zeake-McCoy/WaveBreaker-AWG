@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGHalfRotor</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Half Rotor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AWG'sHalfRotor.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGHalfRotorEvenWidth.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <BlockPairName>AWGHalfRotorPart</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGHalfRotorEvenWidth</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGHalfRotorDualEvenWidth</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBase</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseVertOffset</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseVertOffsetCornerFurther1</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseVertOffsetCornerFurther2</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseVertOffsetFurther</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseCornerOffset</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseCornerOffsetFurther</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseEven</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseDualEven</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseQuarterOffset</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseBlockOffset</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseEvenQuarterOffset</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatRotorBaseEvenBlockOffset</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>MotorAdvancedRotor</TypeId>
+          <SubtypeId>AWGFlatRotorHead</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGCubeRotor</SubtypeId>
+        </BlockVariant>
+        
+      </BlockVariants>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
+      <RotorPart>MotorRotor</RotorPart>
+      <RotorDisplacementMin>-0.33</RotorDisplacementMin>
+      <RotorDisplacementMax>0.15</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.33</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.15</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGHalfRotorEvenWidth</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Half Rotor (Even Width)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AWG'sHalfRotor.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGHalfRotorEvenWidth.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Construction" Count="6" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <UseModelIntersection>true</UseModelIntersection>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
+      <RotorPart>MotorRotor</RotorPart>
+      <RotorDisplacementMin>-0.33</RotorDisplacementMin>
+      <RotorDisplacementMax>0.15</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.33</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.15</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <GeneralDamageMultiplier>0.75</GeneralDamageMultiplier>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGCubeRotor</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Cube Rotor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AWG'sHalfRotor.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGCubeRotorBase.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <UseModelIntersection>true</UseModelIntersection>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
+      <RotorPart>MotorRotor</RotorPart>
+      <RotorDisplacementMin>-0.33</RotorDisplacementMin>
+      <RotorDisplacementMax>0.15</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.33</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.15</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGHalfRotorDualEvenWidth</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Half Rotor (Dual Axis Even Width)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AWG'sHalfRotor.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGHalfRotorEvenWidth.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="6" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <UseModelIntersection>true</UseModelIntersection>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
+      <RotorPart>MotorRotor</RotorPart>
+      <RotorDisplacementMin>-0.33</RotorDisplacementMin>
+      <RotorDisplacementMax>0.15</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.33</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.15</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <GeneralDamageMultiplier>0.75</GeneralDamageMultiplier>
+      
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGHalfRotorLarge</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Half Rotor (Large)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AWG'sHalfRotorLarge.png</Icon>
+      <Description>Description_Rotor</Description>
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGHalfRotorLarge</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGHalfRotorLargeEvenWidth</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGHalfRotorLarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorLarge</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <PropulsionForce>8000</PropulsionForce>
+      <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
+      <RotorPart>MotorRotor</RotorPart>
+      <RotorType>Rotor</RotorType>
+      <RotorDisplacementMin>-1.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.50</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-1.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.50</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGHalfRotorLargeEvenWidth</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Half Rotor (Large, Even Width)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AWG'sHalfRotorLarge.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGHalfRotorLarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="13" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorLarge</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+      <PropulsionForce>8000</PropulsionForce>
+      <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
+      <RotorPart>MotorRotor</RotorPart>
+      <RotorType>Rotor</RotorType>
+      <RotorDisplacementMin>-1.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.50</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-1.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.50</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGMinimalHingeBase</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Minimal Flat Hinge Base</DisplayName>
+      <Icon>NewIcons\HingeBase.png</Icon>
+
+      <Description>A flattened sideways rotor with centralised head; may cause physics issues, skilled builders only, and save often!</Description>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGMinimalHingeBase.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>AWGFlatHingeHead</RotorPart>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.25</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.25</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatHingeBase</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>FlatHingePlateBase</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGMinimalHingeBaseCentred</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>AWGFlatHingeBaseCentred</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorStator</TypeId>
+          <SubtypeId>FlatHingePlateBaseCentred</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>MotorAdvancedRotor</TypeId>
+          <SubtypeId>AWGFlatHingeHead</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGFlatHingeBase</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Flat Hinge Base</DisplayName>
+      <Icon>NewIcons\HingeBase.png</Icon>
+
+      <Description>A flattened sideways rotor with centralised head; may cause physics issues, skilled builders only, and save often!</Description>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGFlatHingeBase.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>AWGFlatHingeHead</RotorPart>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.25</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.25</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>FlatHingePlateBase</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Flat Hinge Plate Base</DisplayName>
+      <Icon>NewIcons\HingeBase.png</Icon>
+
+      <Description>A flattened sideways rotor with centralised head; may cause physics issues, skilled builders only, and save often!</Description>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\FlatHingePlateBase.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>AWGFlatHingeHead</RotorPart>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.25</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.25</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGMinimalHingeBaseCentred</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Minimal Flat Hinge Base (Centred)</DisplayName>
+      <Icon>NewIcons\HingeBase.png</Icon>
+
+      <Description>A flattened sideways rotor with centralised head; may cause physics issues, skilled builders only, and save often!</Description>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGMinimalHingeBaseCentred.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>AWGFlatHingeHead</RotorPart>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.25</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.25</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGFlatHingeBaseCentred</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Flat Hinge Base (Centred)</DisplayName>
+      <Icon>NewIcons\HingeBase.png</Icon>
+
+      <Description>A flattened sideways rotor with centralised head; may cause physics issues, skilled builders only, and save often!</Description>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGFlatHingeBaseCentred.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>AWGFlatHingeHead</RotorPart>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.25</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.25</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>AWGFlatHingeBaseCentredLight</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Flat Hinge Base (Centred, LIGHT)</DisplayName>
+      <Icon>NewIcons\HingeBase.png</Icon>
+
+      <Description>A flattened sideways rotor with centralised head; may cause physics issues, skilled builders only, and save often!</Description>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGFlatHingeBaseCentred.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>AWGFlatHingeHeadLight</RotorPart>
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.25</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.25</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorStator</TypeId>
+        <SubtypeId>FlatHingePlateBaseCentred</SubtypeId>
+      </Id>
+      <DisplayName>AWG's Flat Hinge Plate Base (Centred)</DisplayName>
+      <Icon>NewIcons\HingeBase.png</Icon>
+
+      <Description>A flattened sideways rotor with centralised head; may cause physics issues, skilled builders only, and save often!</Description>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\FlatHingePlateBaseCentred.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>AWGFlatHingeHead</RotorPart>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.25</RotorDisplacementMin>
+      <RotorDisplacementMax>0.25</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.25</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.25</RotorDisplacementMaxSmall>
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>MotorAdvancedRotor</TypeId>
+        <SubtypeId>AWGFlatHingeHead</SubtypeId>
+      </Id>
+      <BlockPairName>AWGFlatHingeHead</BlockPairName>
+      <DisplayName>AWG Flat Hinge Head</DisplayName>
+      <Icon>NewIcons\HingeHead.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\AWGFlatHingeHead.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="12" />
+        <Component Subtype="SmallTube" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>MotorAdvancedRotor</TypeId>
+        <SubtypeId>AWGFlatHingeHeadLight</SubtypeId>
+      </Id>
+      <BlockPairName>AWGFlatHingeHeadLight</BlockPairName>
+      <DisplayName>AWG Flat Hinge Head LIGHT</DisplayName>
+      <Icon>NewIcons\HingeHead.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\AWGFlatHingeHead.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SmallTube" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>25</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,13 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmp2ci7_bug 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:4SlopeConverter.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\abbot\AppData\Local\Temp\tmp2ci7_bug\Content\4SlopeConverter.fbx: Processed
+: 
+    : Finished in 0.1s

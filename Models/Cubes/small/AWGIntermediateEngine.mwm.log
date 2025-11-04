@@ -1,0 +1,699 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmp7zvhxvzg 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:AWGIntermediateEngine.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMattePlastic_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Aluminium_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMetal_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Concrete\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Debug\white_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\ScreenArea_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Debug\Black.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMattePlastic_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Aluminium_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\AluminiumDull_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Clay_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMetal_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BlackMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Debug\Black.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalYellow_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Rubber_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Aluminium_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\AluminiumDull_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Gold\Golden_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalYellow_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalDefault_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Clay_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Silver\Silver_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMattePlastic_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMetal_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Concrete\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Aluminium_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\AluminiumDull_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Silver\Silver_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Silver\Silver_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Silver\Silver_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\BlackMattePlastic_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMattePlastic_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Silver\Silver_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalYellow_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalDefault_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\BlackMetal_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Concrete\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalYellow_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Debug\white_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\ScreenArea_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalYellow_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Rubber_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\BlackMetal_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BlackMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Aluminium_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Silver\Silver_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_VeryDark_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Aluminium_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\RubberWheels_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Silver\Silver_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_VeryDark_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Gold\Golden_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 12097 12096 12095)
+: WARNING: 
+    Model contains degenerated triangle (indices 12097 12095 12094)
+: WARNING: 
+    Model contains degenerated triangle (indices 12103 12102 12101)
+: WARNING: 
+    Model contains degenerated triangle (indices 12103 12101 12100)
+: WARNING: 
+    Model contains degenerated triangle (indices 12102 12106 12101)
+: WARNING: 
+    Model contains degenerated triangle (indices 12119 12118 12117)
+: WARNING: 
+    Model contains degenerated triangle (indices 12125 12124 12123)
+: WARNING: 
+    Model contains degenerated triangle (indices 12125 12123 12122)
+: WARNING: 
+    Model contains degenerated triangle (indices 12124 12129 12128)
+: WARNING: 
+    Model contains degenerated triangle (indices 12124 12128 12123)
+: WARNING: 
+    Model contains degenerated triangle (indices 12129 12133 12132)
+: WARNING: 
+    Model contains degenerated triangle (indices 12129 12132 12128)
+: WARNING: 
+    Model contains degenerated triangle (indices 12133 12137 12136)
+: WARNING: 
+    Model contains degenerated triangle (indices 12133 12136 12132)
+: WARNING: 
+    Model contains degenerated triangle (indices 12137 12141 12140)
+: WARNING: 
+    Model contains degenerated triangle (indices 12137 12140 12136)
+: WARNING: 
+    Model contains degenerated triangle (indices 12141 12145 12144)
+: WARNING: 
+    Model contains degenerated triangle (indices 12141 12144 12140)
+: WARNING: 
+    Model contains degenerated triangle (indices 12145 12149 12148)
+: WARNING: 
+    Model contains degenerated triangle (indices 12145 12148 12144)
+: WARNING: 
+    Model contains degenerated triangle (indices 12157 12155 12154)
+: WARNING: 
+    Model contains degenerated triangle (indices 12163 12162 12161)
+: WARNING: 
+    Model contains degenerated triangle (indices 12162 12166 12161)
+: WARNING: 
+    Model contains degenerated triangle (indices 12167 12171 12170)
+: WARNING: 
+    Model contains degenerated triangle (indices 12171 12174 12170)
+: WARNING: 
+    Model contains degenerated triangle (indices 12175 12179 12178)
+: WARNING: 
+    Model contains degenerated triangle (indices 12179 12183 12182)
+: WARNING: 
+    Model contains degenerated triangle (indices 12179 12182 12178)
+: WARNING: 
+    Model contains degenerated triangle (indices 12183 12189 12188)
+: WARNING: 
+    Model contains degenerated triangle (indices 12183 12188 12182)
+: WARNING: 
+    Model contains degenerated triangle (indices 12195 12194 12193)
+: WARNING: 
+    Model contains degenerated triangle (indices 12195 12193 12192)
+: WARNING: 
+    Model contains degenerated triangle (indices 12194 12199 12198)
+: WARNING: 
+    Model contains degenerated triangle (indices 12194 12198 12193)
+: WARNING: 
+    Model contains degenerated triangle (indices 12199 12203 12202)
+: WARNING: 
+    Model contains degenerated triangle (indices 12199 12202 12198)
+: WARNING: 
+    Model contains degenerated triangle (indices 12203 12207 12206)
+: WARNING: 
+    Model contains degenerated triangle (indices 12203 12206 12202)
+: WARNING: 
+    Model contains degenerated triangle (indices 12207 12211 12210)
+: WARNING: 
+    Model contains degenerated triangle (indices 12207 12210 12206)
+: WARNING: 
+    Model contains degenerated triangle (indices 12211 12215 12214)
+: WARNING: 
+    Model contains degenerated triangle (indices 12211 12214 12210)
+: WARNING: 
+    Model contains degenerated triangle (indices 12215 12219 12218)
+: WARNING: 
+    Model contains degenerated triangle (indices 12215 12218 12214)
+: WARNING: 
+    Model contains degenerated triangle (indices 12227 12225 12224)
+: WARNING: 
+    Model contains degenerated triangle (indices 12226 12231 12230)
+: WARNING: 
+    Model contains degenerated triangle (indices 12235 12234 12233)
+: WARNING: 
+    Model contains degenerated triangle (indices 12235 12233 12232)
+: WARNING: 
+    Model contains degenerated triangle (indices 12237 12103 12100)
+: WARNING: 
+    Model contains degenerated triangle (indices 12237 12100 12236)
+: WARNING: 
+    Model contains degenerated triangle (indices 12234 12239 12238)
+: WARNING: 
+    Model contains degenerated triangle (indices 12234 12238 12233)
+: WARNING: 
+    Model contains degenerated triangle (indices 12243 12242 12241)
+: WARNING: 
+    Model contains degenerated triangle (indices 12243 12241 12240)
+: WARNING: 
+    Model contains degenerated triangle (indices 12096 12243 12240)
+: WARNING: 
+    Model contains degenerated triangle (indices 12096 12240 12095)
+: WARNING: 
+    Model contains degenerated triangle (indices 12249 12097 12094)
+: WARNING: 
+    Model contains degenerated triangle (indices 12249 12094 12248)
+: WARNING: 
+    Model contains degenerated triangle (indices 12251 12249 12248)
+: WARNING: 
+    Model contains degenerated triangle (indices 12251 12248 12250)
+: WARNING: 
+    Model contains degenerated triangle (indices 12255 12254 12253)
+: WARNING: 
+    Model contains degenerated triangle (indices 12257 12252 12256)
+: WARNING: 
+    Model contains degenerated triangle (indices 12261 12260 12259)
+: WARNING: 
+    Model contains degenerated triangle (indices 12261 12259 12258)
+: WARNING: 
+    Model contains degenerated triangle (indices 12263 12261 12258)
+: WARNING: 
+    Model contains degenerated triangle (indices 12263 12258 12262)
+: WARNING: 
+    Model contains degenerated triangle (indices 12265 12263 12262)
+: WARNING: 
+    Model contains degenerated triangle (indices 12265 12262 12264)
+: WARNING: 
+    Model contains degenerated triangle (indices 12267 12265 12264)
+: WARNING: 
+    Model contains degenerated triangle (indices 12267 12264 12266)
+: WARNING: 
+    Model contains degenerated triangle (indices 12269 12267 12266)
+: WARNING: 
+    Model contains degenerated triangle (indices 12269 12266 12268)
+: WARNING: 
+    Model contains degenerated triangle (indices 12271 12269 12268)
+: WARNING: 
+    Model contains degenerated triangle (indices 12271 12268 12270)
+: WARNING: 
+    Model contains degenerated triangle (indices 12273 12271 12270)
+: WARNING: 
+    Model contains degenerated triangle (indices 12273 12270 12272)
+: WARNING: 
+    Model contains degenerated triangle (indices 12277 12276 12275)
+: WARNING: 
+    Model contains degenerated triangle (indices 12277 12275 12274)
+: WARNING: 
+    Model contains degenerated triangle (indices 12279 12277 12274)
+: WARNING: 
+    Model contains degenerated triangle (indices 12279 12274 12278)
+: WARNING: 
+    Model contains degenerated triangle (indices 12281 12279 12278)
+: WARNING: 
+    Model contains degenerated triangle (indices 12283 12280 12282)
+: WARNING: 
+    Model contains degenerated triangle (indices 12285 12283 12282)
+: WARNING: 
+    Model contains degenerated triangle (indices 12287 12284 12286)
+: WARNING: 
+    Model contains degenerated triangle (indices 12289 12287 12286)
+: WARNING: 
+    Model contains degenerated triangle (indices 12293 12291 12290)
+: WARNING: 
+    Model contains degenerated triangle (indices 12297 12296 12295)
+: WARNING: 
+    Model contains degenerated triangle (indices 12297 12295 12294)
+: WARNING: 
+    Model contains degenerated triangle (indices 12299 12297 12294)
+: WARNING: 
+    Model contains degenerated triangle (indices 12299 12294 12298)
+: WARNING: 
+    Model contains degenerated triangle (indices 12301 12299 12298)
+: WARNING: 
+    Model contains degenerated triangle (indices 12301 12298 12300)
+: WARNING: 
+    Model contains degenerated triangle (indices 12303 12301 12300)
+: WARNING: 
+    Model contains degenerated triangle (indices 12303 12300 12302)
+: WARNING: 
+    Model contains degenerated triangle (indices 12305 12303 12302)
+: WARNING: 
+    Model contains degenerated triangle (indices 12305 12302 12304)
+: WARNING: 
+    Model contains degenerated triangle (indices 12307 12305 12304)
+: WARNING: 
+    Model contains degenerated triangle (indices 12307 12304 12306)
+: WARNING: 
+    Model contains degenerated triangle (indices 12309 12307 12306)
+: WARNING: 
+    Model contains degenerated triangle (indices 12309 12306 12308)
+: WARNING: 
+    Model contains degenerated triangle (indices 12313 12312 12311)
+: WARNING: 
+    Model contains degenerated triangle (indices 12242 12314 12241)
+: WARNING: 
+    Model contains degenerated triangle (indices 12239 12237 12236)
+: WARNING: 
+    Model contains degenerated triangle (indices 12239 12236 12238)
+: WARNING: 
+    Model contains degenerated triangle (indices 21306 21307 21307)
+: WARNING: 
+    Model contains degenerated triangle (indices 21306 21307 21306)
+: WARNING: 
+    Model contains degenerated triangle (indices 21320 21321 21321)
+: WARNING: 
+    Model contains degenerated triangle (indices 21320 21321 21320)
+: WARNING: 
+    Model contains degenerated triangle (indices 21324 21325 21325)
+: WARNING: 
+    Model contains degenerated triangle (indices 21324 21325 21324)
+: WARNING: 
+    Model contains degenerated triangle (indices 21338 21339 21339)
+: WARNING: 
+    Model contains degenerated triangle (indices 21338 21339 21338)
+: WARNING: 
+    Model contains degenerated triangle (indices 21344 21345 21345)
+: WARNING: 
+    Model contains degenerated triangle (indices 21344 21345 21344)
+: WARNING: 
+    Model contains degenerated triangle (indices 21358 21359 21359)
+: WARNING: 
+    Model contains degenerated triangle (indices 21358 21359 21358)
+: WARNING: 
+    Model contains degenerated triangle (indices 21364 21365 21365)
+: WARNING: 
+    Model contains degenerated triangle (indices 21364 21365 21364)
+: WARNING: 
+    Model contains degenerated triangle (indices 21386 21387 21387)
+: WARNING: 
+    Model contains degenerated triangle (indices 21386 21387 21386)
+: WARNING: 
+    Model contains degenerated triangle (indices 21390 21391 21391)
+: WARNING: 
+    Model contains degenerated triangle (indices 21390 21391 21390)
+: WARNING: 
+    Model contains degenerated triangle (indices 21396 21397 21397)
+: WARNING: 
+    Model contains degenerated triangle (indices 21396 21397 21396)
+: WARNING: 
+    Model contains degenerated triangle (indices 21402 21403 21403)
+: WARNING: 
+    Model contains degenerated triangle (indices 21402 21403 21402)
+: WARNING: 
+    Model contains degenerated triangle (indices 21408 21409 21409)
+: WARNING: 
+    Model contains degenerated triangle (indices 21408 21409 21408)
+: WARNING: 
+    Model contains degenerated triangle (indices 21414 21415 21415)
+: WARNING: 
+    Model contains degenerated triangle (indices 21414 21415 21414)
+: WARNING: 
+    Model contains degenerated triangle (indices 21420 21421 21421)
+: WARNING: 
+    Model contains degenerated triangle (indices 21420 21421 21420)
+: WARNING: 
+    Model contains degenerated triangle (indices 21426 21427 21427)
+: WARNING: 
+    Model contains degenerated triangle (indices 21426 21427 21426)
+: WARNING: 
+    Model contains degenerated triangle (indices 21976 21976 21338)
+: WARNING: 
+    Model contains degenerated triangle (indices 21976 21338 21338)
+: WARNING: 
+    Model contains degenerated triangle (indices 21977 21977 21415)
+: WARNING: 
+    Model contains degenerated triangle (indices 21977 21415 21415)
+: WARNING: 
+    Model contains degenerated triangle (indices 21978 21978 21386)
+: WARNING: 
+    Model contains degenerated triangle (indices 21978 21386 21386)
+: WARNING: 
+    Model contains degenerated triangle (indices 21979 21979 21307)
+: WARNING: 
+    Model contains degenerated triangle (indices 21979 21307 21307)
+: WARNING: 
+    Model contains degenerated triangle (indices 21980 21980 21345)
+: WARNING: 
+    Model contains degenerated triangle (indices 21980 21345 21345)
+: WARNING: 
+    Model contains degenerated triangle (indices 21982 21982 21981)
+: WARNING: 
+    Model contains degenerated triangle (indices 21982 21981 21981)
+: WARNING: 
+    Model contains degenerated triangle (indices 21983 21983 21339)
+: WARNING: 
+    Model contains degenerated triangle (indices 21983 21339 21339)
+: WARNING: 
+    Model contains degenerated triangle (indices 21984 21984 21324)
+: WARNING: 
+    Model contains degenerated triangle (indices 21984 21324 21324)
+: WARNING: 
+    Model contains degenerated triangle (indices 21985 21985 21397)
+: WARNING: 
+    Model contains degenerated triangle (indices 21985 21397 21397)
+: WARNING: 
+    Model contains degenerated triangle (indices 21986 21986 21364)
+: WARNING: 
+    Model contains degenerated triangle (indices 21986 21364 21364)
+: WARNING: 
+    Model contains degenerated triangle (indices 21987 21987 21421)
+: WARNING: 
+    Model contains degenerated triangle (indices 21987 21421 21421)
+: WARNING: 
+    Model contains degenerated triangle (indices 21988 21988 21403)
+: WARNING: 
+    Model contains degenerated triangle (indices 21988 21403 21403)
+: WARNING: 
+    Model contains degenerated triangle (indices 21989 21989 21427)
+: WARNING: 
+    Model contains degenerated triangle (indices 21989 21427 21427)
+: WARNING: 
+    Model contains degenerated triangle (indices 21990 21990 21325)
+: WARNING: 
+    Model contains degenerated triangle (indices 21990 21325 21325)
+: WARNING: 
+    Model contains degenerated triangle (indices 21991 21991 21365)
+: WARNING: 
+    Model contains degenerated triangle (indices 21991 21365 21365)
+: WARNING: 
+    Model contains degenerated triangle (indices 21992 21992 21387)
+: WARNING: 
+    Model contains degenerated triangle (indices 21992 21387 21387)
+: WARNING: 
+    Model contains degenerated triangle (indices 21993 21981 21981)
+: WARNING: 
+    Model contains degenerated triangle (indices 21993 21981 21993)
+C:\Users\abbot\AppData\Local\Temp\tmp7zvhxvzg\Content\AWGIntermediateEngine.fbx: Processed
+: 
+    : Finished in 0.2s

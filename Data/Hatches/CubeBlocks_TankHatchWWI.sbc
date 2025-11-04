@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TankHatchWWI1x1</SubtypeId>
+      </Id>
+      <DisplayName>Driver Hatch (1x1, Riveted)</DisplayName>
+      <Description>Openable Armoured Hatch.</Description>
+      <Icon>NewIcons\DriverHatch.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\TankHatchWWIFrame.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>11</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1.2</DamageMultiplierExplosion>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <PowerConsumptionIdle>0</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0</PowerConsumptionMoving>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Subparts>
+        <SubpartDefinition>
+          <Name>TankHatchWWIDoor</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <!--Slide for linear-->
+          <RotationAxis>Z</RotationAxis>
+          <PivotPosition x="0.23199" y="-0.20138" z="0"/>
+          <MaxOpen>-80</MaxOpen>
+          <Speed>100</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound></OpenSound>
+          <CloseSound></CloseSound>
+        </Opening>
+      </OpeningSequence>
+      <PCU>10</PCU>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+    
+	</CubeBlocks>
+</Definitions>

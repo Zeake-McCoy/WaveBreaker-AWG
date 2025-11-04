@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>CupolaRimMantlet</SubtypeId>
+			</Id>
+			<DisplayName>Cupola Mantlet</DisplayName>
+			<Description>For covering the outer gaps.</Description>
+			<Icon>NewIcons\CupolaRimMantlet.png</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\CupolaRimMantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>CupolaRimMantlet</BlockPairName>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CupolaRimMantlet2x2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>CupolaRimMantletBelow</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CupolaRimMantlet2x2</SubtypeId>
+      </Id>
+      <ModelOffset x="-0.25" y="0" z="0.25" />
+      <DisplayName>Cupola Mantlet 2x2</DisplayName>
+      <Description>For covering the outer gaps.</Description>
+      <Icon>NewIcons\CupolaRimMantlet.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CupolaRimMantlet.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BlockPairName>CupolaRimMantlet2x2</BlockPairName>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+    </Definition>
+
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CupolaRimMantletBelow</SubtypeId>
+      </Id>
+      <ModelOffset x="0.5" y="-0.5" z="0" />
+      <DisplayName>Cupola Mantlet Offset Below</DisplayName>
+      <Description>For covering the outer gaps.</Description>
+      <Icon>NewIcons\CupolaRimMantlet.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\CupolaRimMantlet.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <BlockPairName>CupolaRimMantletBelow</BlockPairName>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+    </Definition>
+	</CubeBlocks>
+</Definitions>

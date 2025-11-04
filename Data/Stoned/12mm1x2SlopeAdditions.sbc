@@ -1,0 +1,376 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmOffset1x2SlopeTip</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Offset 1x2 Slope Tip (2 Slope Additions)</DisplayName>
+		  <Icon>NewIcons\1x2SlopeAdditions12mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\Offset1x2SlopeTip.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <BlockVariants>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2x1SlopeBaseHalfLeft</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2x1SlopeBaseHalfRight</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2x1SlopeTipHalfLeft</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2x1SlopeTipHalfRight</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2x1SlopeTipHalfOffsetLeft</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm2x1SlopeTipHalfOffsetRight</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mmQuarterSlopeHalf</SubtypeId>
+			</BlockVariant>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mmForwardOffset2SlopeTip</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mmForwardOffset2SlopeMid</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mmForwardOffset2SlopeBase</SubtypeId>
+			</BlockVariant>
+			
+		  </BlockVariants>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2x1SlopeBaseHalfLeft</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2x1 Slope Base Half (Left)</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\2x1SlopeBaseHalfLeft.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2x1SlopeBaseHalfRight</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2x1 Slope Base Half (Right)</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\2x1SlopeBaseHalfRight.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2x1SlopeTipHalfLeft</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2x1 Slope Tip Half (Left)</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\2x1SlopeTipHalfLeft.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2x1SlopeTipHalfRight</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2x1 Slope Tip Half (Right)</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\2x1SlopeTipHalfRight.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2x1SlopeTipHalfOffsetLeft</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2x1 Slope Tip Half Offset (Left)</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\2x1SlopeTipHalfOffsetLeft.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm2x1SlopeTipHalfOffsetRight</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 2x1 Slope Tip Half Offset (Right)</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\2x1SlopeTipHalfOffsetRight.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmQuarterSlopeHalf</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Quarter Slope Half</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\QuarterSlopeHalf.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmForwardOffset2SlopeTip</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Forward Offset 1x2 Slope Tip</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\ForwardOffset1x2SlopeTip.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmForwardOffset2SlopeMid</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Forward Offset 1x2 Slope Mid</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\ForwardOffset1x2SlopeMid.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mmForwardOffset2SlopeBase</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm Forward Offset 1x2 Slope Base</DisplayName>
+		  <Icon>NewIcons\MiscSlopePlaceHolderIcon.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\ForwardOffset1x2SlopeBase.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

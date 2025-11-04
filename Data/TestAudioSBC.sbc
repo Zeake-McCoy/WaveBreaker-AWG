@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundCategories>
+    <SoundCategory>
+      <Id>
+        <TypeId>SoundCategoryDefinition</TypeId>
+        <SubTypeId>TestAudioSounds</SubTypeId>
+      </Id>
+      <Sounds>
+        <SoundDesc Id="britId" SoundName="God Save the King" />
+        <SoundDesc Id="gerId" SoundName="Panzerleid" />
+        <SoundDesc Id="usId" SoundName="Star Spangled Banner" />
+        <SoundDesc Id="ussrId" SoundName="Anthem of the Soviet Union" />
+        <SoundDesc Id="pizzatimeId" SoundName="Pizza Time!" />
+        <SoundDesc Id="brickoliniId" SoundName="Brickolini" />
+        <SoundDesc Id="kalinkaId" SoundName="Kalinka" />
+        <SoundDesc Id="oceanmanrealId" SoundName="Ocean Man 1" />
+        <SoundDesc Id="oceanmanremId" SoundName="Ocean Man 2" />
+        <SoundDesc Id="valkyriesId" SoundName="Flight of the Valkyries" />
+        <SoundDesc Id="banditradioId" SoundName="Bandit Radio" />
+      </Sounds>
+    </SoundCategory>
+  </SoundCategories>
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>britId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\brit.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>gerId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ger.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>usId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\us.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ussrId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ussr.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>pizzatimeId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\pizzatime.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>brickoliniId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\brickolini.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>kalinkaId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\kalinka.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>oceanmanrealId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\oceanmanreal.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>oceanmanremId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\oceanmanrem.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>valkyriesId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\valkyries.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>banditradioId</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\banditradio.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

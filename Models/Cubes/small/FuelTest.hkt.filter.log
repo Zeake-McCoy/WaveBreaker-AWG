@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\abbot\AppData\Local\Temp\space_engineers_lf2x9vmp.hko -p C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\WeaponCore Pack\Models\Cubes\small\FuelTest.hkt C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\WeaponCore Pack\Models\Cubes\small\FuelTest.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Sun Mar 26 20:56:33 2023, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\WeaponCore Pack\Models\Cubes\small\FuelTest.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

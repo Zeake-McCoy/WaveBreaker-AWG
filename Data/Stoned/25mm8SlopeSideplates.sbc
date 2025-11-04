@@ -1,0 +1,528 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate1Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 1 (Left)</DisplayName>
+		  <Icon>NewIcons\8SlopeSideplate25mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate1Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <BlockVariants>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate1Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate2Left</SubtypeId>
+			</BlockVariant>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate2Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate3Left</SubtypeId>
+			</BlockVariant>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate3Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate4Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate4Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate5Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate5Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate6Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate6Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate7Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate7Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate8Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>25mm8SlopeSideplate8Right</SubtypeId>
+			</BlockVariant>
+		  </BlockVariants>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate2Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 2 (Left)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate2Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate3Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 3 (Left)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate3Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate4Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 4 (Left)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate4Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate5Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 5 (Left)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate5Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate6Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 6 (Left)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate6Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate7Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 7 (Left)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate7Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate8Left</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 8 (Left)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate8Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		  
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate1Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 1 (Right)</DisplayName>
+		  <Icon>NewIcons\MainPlate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate1Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate2Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 2 (Right)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate2Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate3Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 3 (Right)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate3Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate4Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 4 (Right)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate4Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate5Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 5 (Right)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate5Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate6Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 6 (Right)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate6Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate7Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 7 (Right)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate7Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>25mm8SlopeSideplate8Right</SubtypeId>
+		  </Id>
+		  <DisplayName>25mm 8 Slope Sideplate 8 (Right)</DisplayName>
+		  <Icon>NewIcons\Plate25.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeSideplate8Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

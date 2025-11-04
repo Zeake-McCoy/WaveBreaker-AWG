@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>Sideplate4Slope100Thick1Right</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\17Sideplate4Slope100Thick1Right.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Sideplate4Slope100Thick1Right.mwm</Model>
+	<BlockPairName>17Sideplate4Slope100Thick1Right</BlockPairName>
+</Definition>

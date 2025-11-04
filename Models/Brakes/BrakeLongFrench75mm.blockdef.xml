@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>BrakeLongFrench75mm</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\Brake75mm.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\BrakeLongFrench75mm.mwm</Model>
+	<BlockPairName>Brake75mm</BlockPairName>
+</Definition>

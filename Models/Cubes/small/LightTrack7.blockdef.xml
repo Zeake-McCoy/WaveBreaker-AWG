@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>LightTrack7</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\LightTrack7.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\LightTrack7.mwm</Model>
+	<BlockPairName>LightTrack7</BlockPairName>
+</Definition>

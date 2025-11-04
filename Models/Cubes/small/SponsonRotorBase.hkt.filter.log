@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\abbot\AppData\Local\Temp\space_engineers_atb6vy1o.hko -p C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\SponsonRotorBase.hkt C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\SponsonRotorBase.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Thu Jun 01 00:48:05 2023, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\SponsonRotorBase.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

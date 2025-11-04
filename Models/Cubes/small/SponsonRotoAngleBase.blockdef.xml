@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>SponsonRotoAngleBase</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\Base.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="2" y="2" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\SponsonRotoAngleBase.mwm</Model>
+	<BlockPairName>Base</BlockPairName>
+</Definition>

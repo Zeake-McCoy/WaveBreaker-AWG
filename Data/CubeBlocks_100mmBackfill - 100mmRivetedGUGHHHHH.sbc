@@ -1,0 +1,1319 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Slope1x1Side100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm Slope 1x1 Side (100mm Backfill Group)</DisplayName>
+      <Icon>NewIcons\Plate100.png</Icon><!--PlaceHolderPlate-->
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\Slope1x1Side100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopeHalf1x1Side100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Slope2x1SideTipLeft100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Slope2x1SideTipRight100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Slope2x1SideBaseLeft100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Slope2x1SideBaseRight100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopeQuarterSideLeft100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopeQuarterSideRight100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeInverseCornerTopRight</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeThickRight</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeThickLeft</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeCubic</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeInverseCorner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeInverseCornerTopLeft</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeInverseCornerTopHalf</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>QuarterSlopeInverseCornerBottom</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>FullCornerFiller100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>FullCornerFillerCentre100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopeCornerFiller100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>T100Plate100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>T50Plate100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>T25Plate100mm</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlateMantletHalf</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlateMantlet100mm</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopePlateTip100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlopePlateBase100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlateFullRiveted100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlateFullRiveted100mmInverse</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlateHalfRiveted100mm</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlateHalfRiveted100mmInverse</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopeHalf1x1Side100mm</SubtypeId>
+      </Id>
+
+      <DisplayName>Slope Half 1x1 Side 100mm</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopeHalf1x1Side.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+    </Definition>
+    
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlateFullRiveted100mm</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Riveted Plate</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\PlateFlatRiveted100mm.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlateFullRiveted100mmInverse</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Riveted Plate Inverse</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="-0.40" y="0" z="0" />
+      <Model>Models\Cubes\Small\PlateFlatRiveted100mm.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlateHalfRiveted100mm</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Riveted Plate Half</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\PlateHalfRiveted100mm.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlateHalfRiveted100mmInverse</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Riveted Plate Half Inverse</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="-0.40" y="0" z="0" />
+      <Model>Models\Cubes\Small\PlateHalfRiveted100mm.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+    </Definition>
+
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopePlateTip100mm</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm 2x1 Plate Tip</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopePlateTip100mm.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopePlateBase100mm</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm 2x1 Plate Base</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopePlateBase100mm.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+    </Definition>
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Slope2x1SideTipLeft100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm 2x1 Side Tip Left</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\Slope2x1SideTipLeft100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+    </Definition>
+  
+  <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Slope2x1SideTipRight100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm 2x1 Side Tip Right</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\Slope2x1SideTipRight100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Slope2x1SideBaseLeft100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm 2x1 Side Base Left</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\Slope2x1SideBaseLeft100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Slope2x1SideBaseRight100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm 2x1 Side Base Right</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\Slope2x1SideBaseRight100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopeQuarterSideLeft100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm Quarter Slope Side Plate Left</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopeQuarterSideLeft100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopeQuarterSideRight100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm Quarter Slope Side Plate Right</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopeQuarterSideRight100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeThickLeft</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Side Plate Filler Left</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeThickLeft.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeThickRight</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Side Plate Filler Right</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeThickRight.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeCubic</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Cubic</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeCubic.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeInverseCorner</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Inverse Corner</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeInverseCorner.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeInverseCornerTopLeft</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Inverse Corner Top</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeInverseCornerTopLeft.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeInverseCornerTopHalf</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Inverse Corner Top Half</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeInverseCornerTopHalf.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeInverseCornerBottom</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Inverse Corner Bottom</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeInverseCornerBottom.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>QuarterSlopeInverseCornerTopRight</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Quarter Slope Corner Bottom</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\QuarterSlopeInverseCornerTopRight.mwm</Model>
+
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>FullCornerFiller100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm Full Corner Filler Plate</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\FullCornerFiller100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>FullCornerFillerCentre100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm Full Corner Filler Plate (Centre)</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\FullCornerFillerCentre100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+      
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlopeCornerFiller100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm Slope Corner Filler Plate</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SlopeCornerFiller100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>T100Plate100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm T-Plate-100</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\T100Plate100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>T50Plate100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm T-Plate-50</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\T50Plate100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+  
+    <Definition>
+      
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>T25Plate100mm</SubtypeId>
+      </Id>
+      
+      <DisplayName>100mm T-Plate-25</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\T25Plate100mm.mwm</Model>
+      
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+      
+      <EdgeType>Light</EdgeType>
+      
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      
+      <PCU>1</PCU>
+
+    </Definition>
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlateMantlet100mm</SubtypeId>
+      </Id>
+
+      <DisplayName>100mm Mantlet Plate</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\PlateMantlet100mm.mwm</Model>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+
+    <Definition>
+
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlateMantletHalf</SubtypeId>
+      </Id>
+
+      <DisplayName>Plate Mantlet Half</DisplayName>
+      <Icon>NewIcons\PlaceHolderPlate.png</Icon>
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\PlateMantletHalf.mwm</Model>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <MirroringX>ZMinusHalfX</MirroringX>
+      <MirroringY>XHalfX</MirroringY>
+      <MirroringZ>HalfX</MirroringZ>
+
+      <EdgeType>Light</EdgeType>
+
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+
+      <PCU>1</PCU>
+
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>

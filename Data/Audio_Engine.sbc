@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>HeavyEngineSound</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>60</MaxDistance>
+      <Volume>2</Volume>
+      <Loopable>true</Loopable>
+      <UpdateDistance>60</UpdateDistance>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\HeavyEngineStart.wav</Start>
+          <Loop>Audio\ARC\BLOCK\HeavyEngineLoop.wav</Loop>
+          <End>Audio\ARC\BLOCK\HeavyEngineStop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcMediumEngineSound</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>35</MaxDistance>
+      <Volume>0.75</Volume>
+      <Loopable>true</Loopable>
+      <UpdateDistance>60</UpdateDistance>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\MediumEngineStart.wav</Start>
+          <Loop>Audio\ARC\BLOCK\MediumEngineLoop.wav</Loop>
+          <End>Audio\ARC\BLOCK\MediumEngineStop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SHEngineSound</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>120</MaxDistance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+      <UpdateDistance>60</UpdateDistance>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\HeavyEngineStart.wav</Start>
+          <Loop>Audio\ARC\BLOCK\HeavyEngineLoop.wav</Loop>
+          <End>Audio\ARC\BLOCK\HeavyEngineStop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>  
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>LightEngineSound</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>25</MaxDistance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+      <UpdateDistance>25</UpdateDistance>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\LightEngineStart.wav</Start>
+          <Loop>Audio\ARC\BLOCK\LightEngineLoop.wav</Loop>
+          <End>Audio\ARC\BLOCK\LightEngineStop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RadialEngineSound</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>60</MaxDistance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+      <UpdateDistance>60</UpdateDistance>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\RadialEngineStart.wav</Start>
+          <Loop>Audio\ARC\BLOCK\RadialEngineLoop.wav</Loop>
+          <End>Audio\ARC\BLOCK\RadialEngineStop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AWGPropellerSound</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>250</MaxDistance>
+      <PitchVariance>8</PitchVariance>
+      <Volume>6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\HeliNew\SmallStart.wav</Start>-->
+          <Loop>Audio\HeliNew\SmallLoop.wav</Loop>
+          <End>Audio\HeliNew\SmallStop.wav</End>-->
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AWGPropellerSoundLarge</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>350</MaxDistance>
+      <PitchVariance>8</PitchVariance>
+      <Volume>6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\HeliNew\LargeStart.wav</Start>-->
+          <Loop>Audio\HeliNew\LargeLoop.wav</Loop>
+          <End>Audio\HeliNew\LargeStop.wav</End>-->
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AWGRotorNoise</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>25</MaxDistance>
+      <PitchVariance>1</PitchVariance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\RotorTurnStart.wav</Start>-->
+          <Loop>Audio\RotorTurnLoop.wav</Loop>
+          <End>Audio\RotorTurnStop.wav</End>-->
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>

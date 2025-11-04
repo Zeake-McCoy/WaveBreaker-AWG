@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>StorageBarrel</SubtypeId>
+      </Id>
+      <DisplayName>Old Storage Barrel</DisplayName>
+      <Icon>NewIcons\Barrel.png</Icon>
+      <Description>Description_SmallCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="2" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\StorageBarrel.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="InteriorPlate" Count="2" />
+      </Components>
+
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

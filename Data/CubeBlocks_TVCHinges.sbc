@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>MotorAdvancedRotor</TypeId>
+        <SubtypeId>TVCHinge1x2HeadVertical</SubtypeId>
+      </Id>
+      <BlockPairName>TVCHinge1x2HeadVertical</BlockPairName>
+      <DisplayName>Thrust Vector Conveyor Hinge Head (TVC Head 1x2)</DisplayName>
+      <Icon>NewIcons\TVC1x2Head.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\TVCHinge1x2HeadVertical.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="18" />
+        <Component Subtype="SmallTube" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion> 
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>MotorAdvancedRotor</TypeId>
+        <SubtypeId>TVCHinge1x1HeadVertical</SubtypeId>
+      </Id>
+      <BlockPairName>TVCHinge1x1HeadVertical</BlockPairName>
+      <DisplayName>Thrust Vector Conveyor Hinge Head (TVC Head 1x1)</DisplayName>
+      <Icon>NewIcons\TVC1x1Head.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\TVCHinge1x1HeadVertical.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="12" />
+        <Component Subtype="SmallTube" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>25</PCU>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorAdvancedStator</TypeId>
+        <SubtypeId>TVCHinge1x1BaseTo1x2Vertical</SubtypeId>
+      </Id>
+      <DisplayName>Thrust Vector Conveyor Hinge (TVC Base 1x1 to 1x2)</DisplayName>
+      <Icon>NewIcons\TVC1x1to1x2.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+
+      <Description>An advanced hinge.</Description>
+
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TVCHinge1x1Base.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>TVCHinge1x2HeadVertical</RotorPart>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.5</RotorDisplacementMin>
+      <RotorDisplacementMax>0.5</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.5</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.5</RotorDisplacementMaxSmall>
+      
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+      
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
+      
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>MotorAdvancedStator</TypeId>
+          <SubtypeId>TVCHinge1x2BaseTo1x2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>MotorAdvancedStator</TypeId>
+          <SubtypeId>TVCHinge1x2Base1x1Head</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>MotorAdvancedStator</TypeId>
+          <SubtypeId>TVCHinge1x1BaseTo1x1Vertical</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorAdvancedRotor</TypeId>
+          <SubtypeId>TVCHinge1x1HeadVertical</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>MotorAdvancedRotor</TypeId>
+          <SubtypeId>TVCHinge1x2HeadVertical</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorAdvancedStator</TypeId>
+        <SubtypeId>TVCHinge1x2BaseTo1x2</SubtypeId>
+      </Id>
+      <DisplayName>Thrust Vector Conveyor Hinge (TVC Base 1x2 to 1x2)</DisplayName>
+      <Icon>NewIcons\TVC1x2to1x2.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+
+      <Description>An advanced hinge.</Description>
+
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TVCHinge1x2Base.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>TVCHinge1x2HeadVertical</RotorPart>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.5</RotorDisplacementMin>
+      <RotorDisplacementMax>0.5</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.5</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.5</RotorDisplacementMaxSmall>
+
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
+
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorAdvancedStator</TypeId>
+        <SubtypeId>TVCHinge1x2Base1x1Head</SubtypeId>
+      </Id>
+      <DisplayName>Thrust Vector Conveyor Hinge (TVC Base 1x2 to 1x1)</DisplayName>
+      <Icon>NewIcons\TVX1x2to1x1.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+
+      <Description>An advanced hinge.</Description>
+
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TVCHinge1x2Base1x1Head.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>TVCHinge1x1HeadVertical</RotorPart>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.5</RotorDisplacementMin>
+      <RotorDisplacementMax>0.5</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.5</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.5</RotorDisplacementMaxSmall>
+
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
+
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+      <Id>
+        <TypeId>MotorAdvancedStator</TypeId>
+        <SubtypeId>TVCHinge1x1BaseTo1x1Vertical</SubtypeId>
+      </Id>
+      <DisplayName>Thrust Vector Conveyor Hinge (TVC Base 1x1 to 1x1)</DisplayName>
+      <Icon>NewIcons\TVX1x1to1x1.png</Icon>
+      <Description>Description_Rotor</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+
+      <Description>An advanced hinge.</Description>
+
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\TVCHinge1x1Base1x1Head.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <PrimarySound>BlockRotorSmall</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <MaxForceMagnitude>1E6</MaxForceMagnitude>
+      <DangerousTorqueThreshold>448001</DangerousTorqueThreshold>
+      <RotorPart>TVCHinge1x1HeadVertical</RotorPart>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <RotorDisplacementMin>-0.5</RotorDisplacementMin>
+      <RotorDisplacementMax>0.5</RotorDisplacementMax>
+      <RotorDisplacementMinSmall>-0.5</RotorDisplacementMinSmall>
+      <RotorDisplacementMaxSmall>0.5</RotorDisplacementMaxSmall>
+
+      <RotorDisplacementInModel>0</RotorDisplacementInModel>
+
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
+
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+
+    </Definition>
+  </CubeBlocks>
+</Definitions>

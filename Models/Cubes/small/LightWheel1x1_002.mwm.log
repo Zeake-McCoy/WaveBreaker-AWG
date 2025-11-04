@@ -1,0 +1,95 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmp0w69e97h 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:LightWheel1x1_002.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Rubber_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 64 63 62)
+: WARNING: 
+    Model contains degenerated triangle (indices 64 62 61)
+: WARNING: 
+    Model contains degenerated triangle (indices 109 108 107)
+: WARNING: 
+    Model contains degenerated triangle (indices 109 107 106)
+: WARNING: 
+    Model contains degenerated triangle (indices 113 112 111)
+: WARNING: 
+    Model contains degenerated triangle (indices 113 111 110)
+: WARNING: 
+    Model contains degenerated triangle (indices 114 115 115)
+: WARNING: 
+    Model contains degenerated triangle (indices 114 115 114)
+: WARNING: 
+    Model contains degenerated triangle (indices 116 117 117)
+: WARNING: 
+    Model contains degenerated triangle (indices 116 117 116)
+: WARNING: 
+    Model contains degenerated triangle (indices 121 120 119)
+: WARNING: 
+    Model contains degenerated triangle (indices 121 119 118)
+: WARNING: 
+    Model contains degenerated triangle (indices 125 124 123)
+: WARNING: 
+    Model contains degenerated triangle (indices 125 123 122)
+: WARNING: 
+    Model contains degenerated triangle (indices 126 127 127)
+: WARNING: 
+    Model contains degenerated triangle (indices 126 127 126)
+: WARNING: 
+    Model contains degenerated triangle (indices 128 130 129)
+: WARNING: 
+    Model contains degenerated triangle (indices 128 129 128)
+: WARNING: 
+    Model contains degenerated triangle (indices 134 133 132)
+: WARNING: 
+    Model contains degenerated triangle (indices 134 132 131)
+: WARNING: 
+    Model contains degenerated triangle (indices 141 140 140)
+: WARNING: 
+    Model contains degenerated triangle (indices 141 140 139)
+: WARNING: 
+    Model contains degenerated triangle (indices 130 142 142)
+: WARNING: 
+    Model contains degenerated triangle (indices 130 142 129)
+: WARNING: 
+    Model contains degenerated triangle (indices 133 145 144)
+: WARNING: 
+    Model contains degenerated triangle (indices 133 144 143)
+: WARNING: 
+    Model contains degenerated triangle (indices 146 148 147)
+: WARNING: 
+    Model contains degenerated triangle (indices 146 147 146)
+: WARNING: 
+    Model contains degenerated triangle (indices 149 150 150)
+: WARNING: 
+    Model contains degenerated triangle (indices 149 150 149)
+: WARNING: 
+    Model contains degenerated triangle (indices 291 109 290)
+: WARNING: 
+    Model contains degenerated triangle (indices 291 290 289)
+C:\Users\abbot\AppData\Local\Temp\tmp0w69e97h\Content\LightWheel1x1_002.fbx: Processed
+: 
+    : Finished in 0.1s

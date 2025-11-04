@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>TankHatch2x2RoundCentre</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\TankHatch2x2RoundCentre.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="2" y="1" z="2" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\TankHatch2x2RoundCentre.mwm</Model>
+	<BlockPairName>TankHatch2x2RoundCentre</BlockPairName>
+</Definition>

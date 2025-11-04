@@ -1,0 +1,264 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner1</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 1</DisplayName>
+		  <Icon>NewIcons\8SlopeCorner12mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner1.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <BlockVariants>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm8SlopeCorner2</SubtypeId>
+			</BlockVariant>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm8SlopeCorner3</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm8SlopeCorner4</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm8SlopeCorner5</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm8SlopeCorner6</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm8SlopeCorner7</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>12mm8SlopeCorner8</SubtypeId>
+			</BlockVariant>
+		  </BlockVariants>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner2</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 2</DisplayName>
+		  <Icon>NewIcons\Plate12.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner2.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner3</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 3</DisplayName>
+		  <Icon>NewIcons\Plate12.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner3.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner4</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 4</DisplayName>
+		  <Icon>NewIcons\Plate12.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner4.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner5</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 5</DisplayName>
+		  <Icon>NewIcons\Plate12.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner5.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner6</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 6</DisplayName>
+		  <Icon>NewIcons\Plate12.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner6.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner7</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 7</DisplayName>
+		  <Icon>NewIcons\Plate12.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner7.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>12mm8SlopeCorner8</SubtypeId>
+		  </Id>
+		  <DisplayName>12mm 8 Slope Corner 8</DisplayName>
+		  <Icon>NewIcons\Plate12.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\8SlopeCorner8.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1" />
+		  </Components>
+		  <CriticalComponent Subtype="SteelPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

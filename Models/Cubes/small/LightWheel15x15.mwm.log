@@ -1,0 +1,153 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmpq607du03 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:LightWheel15x15.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Rubber_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\Skins\Dust\GenericDust_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 61 63 62)
+: WARNING: 
+    Model contains degenerated triangle (indices 61 62 61)
+: WARNING: 
+    Model contains degenerated triangle (indices 108 107 106)
+: WARNING: 
+    Model contains degenerated triangle (indices 108 106 105)
+: WARNING: 
+    Model contains degenerated triangle (indices 112 111 110)
+: WARNING: 
+    Model contains degenerated triangle (indices 112 110 109)
+: WARNING: 
+    Model contains degenerated triangle (indices 116 115 114)
+: WARNING: 
+    Model contains degenerated triangle (indices 116 114 113)
+: WARNING: 
+    Model contains degenerated triangle (indices 120 119 118)
+: WARNING: 
+    Model contains degenerated triangle (indices 120 118 117)
+: WARNING: 
+    Model contains degenerated triangle (indices 63 122 121)
+: WARNING: 
+    Model contains degenerated triangle (indices 63 121 62)
+: WARNING: 
+    Model contains degenerated triangle (indices 111 124 124)
+: WARNING: 
+    Model contains degenerated triangle (indices 111 124 123)
+: WARNING: 
+    Model contains degenerated triangle (indices 128 127 126)
+: WARNING: 
+    Model contains degenerated triangle (indices 128 126 125)
+: WARNING: 
+    Model contains degenerated triangle (indices 132 131 130)
+: WARNING: 
+    Model contains degenerated triangle (indices 132 130 129)
+: WARNING: 
+    Model contains degenerated triangle (indices 136 135 134)
+: WARNING: 
+    Model contains degenerated triangle (indices 136 134 133)
+: WARNING: 
+    Model contains degenerated triangle (indices 144 143 142)
+: WARNING: 
+    Model contains degenerated triangle (indices 144 142 141)
+: WARNING: 
+    Model contains degenerated triangle (indices 146 116 113)
+: WARNING: 
+    Model contains degenerated triangle (indices 146 113 145)
+: WARNING: 
+    Model contains degenerated triangle (indices 135 148 147)
+: WARNING: 
+    Model contains degenerated triangle (indices 135 147 134)
+: WARNING: 
+    Model contains degenerated triangle (indices 127 151 150)
+: WARNING: 
+    Model contains degenerated triangle (indices 127 150 149)
+: WARNING: 
+    Model contains degenerated triangle (indices 143 154 153)
+: WARNING: 
+    Model contains degenerated triangle (indices 143 153 152)
+: WARNING: 
+    Model contains degenerated triangle (indices 295 108 294)
+: WARNING: 
+    Model contains degenerated triangle (indices 295 294 293)
+: WARNING: 
+    Model contains degenerated triangle (indices 1517 1516 1515)
+: WARNING: 
+    Model contains degenerated triangle (indices 1517 1515 1515)
+: WARNING: 
+    Model contains degenerated triangle (indices 1562 1561 1560)
+: WARNING: 
+    Model contains degenerated triangle (indices 1562 1560 1559)
+: WARNING: 
+    Model contains degenerated triangle (indices 1566 1565 1564)
+: WARNING: 
+    Model contains degenerated triangle (indices 1566 1564 1563)
+: WARNING: 
+    Model contains degenerated triangle (indices 1570 1569 1568)
+: WARNING: 
+    Model contains degenerated triangle (indices 1570 1568 1567)
+: WARNING: 
+    Model contains degenerated triangle (indices 1574 1573 1572)
+: WARNING: 
+    Model contains degenerated triangle (indices 1574 1572 1571)
+: WARNING: 
+    Model contains degenerated triangle (indices 1576 1575 1516)
+: WARNING: 
+    Model contains degenerated triangle (indices 1576 1516 1517)
+: WARNING: 
+    Model contains degenerated triangle (indices 1578 1578 1565)
+: WARNING: 
+    Model contains degenerated triangle (indices 1578 1565 1577)
+: WARNING: 
+    Model contains degenerated triangle (indices 1582 1581 1580)
+: WARNING: 
+    Model contains degenerated triangle (indices 1582 1580 1579)
+: WARNING: 
+    Model contains degenerated triangle (indices 1586 1585 1584)
+: WARNING: 
+    Model contains degenerated triangle (indices 1586 1584 1583)
+: WARNING: 
+    Model contains degenerated triangle (indices 1590 1589 1588)
+: WARNING: 
+    Model contains degenerated triangle (indices 1590 1588 1587)
+: WARNING: 
+    Model contains degenerated triangle (indices 1598 1597 1596)
+: WARNING: 
+    Model contains degenerated triangle (indices 1598 1596 1595)
+: WARNING: 
+    Model contains degenerated triangle (indices 1567 1568 1600)
+: WARNING: 
+    Model contains degenerated triangle (indices 1567 1600 1599)
+: WARNING: 
+    Model contains degenerated triangle (indices 1602 1601 1589)
+: WARNING: 
+    Model contains degenerated triangle (indices 1602 1589 1590)
+: WARNING: 
+    Model contains degenerated triangle (indices 1605 1604 1581)
+: WARNING: 
+    Model contains degenerated triangle (indices 1605 1581 1603)
+: WARNING: 
+    Model contains degenerated triangle (indices 1608 1607 1597)
+: WARNING: 
+    Model contains degenerated triangle (indices 1608 1597 1606)
+: WARNING: 
+    Model contains degenerated triangle (indices 1749 1560 1748)
+: WARNING: 
+    Model contains degenerated triangle (indices 1749 1748 1747)
+C:\Users\abbot\AppData\Local\Temp\tmpq607du03\Content\LightWheel15x15.fbx: Processed
+: 
+    : Finished in 0.1s

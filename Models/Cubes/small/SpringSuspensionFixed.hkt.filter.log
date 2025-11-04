@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\abbot\AppData\Local\Temp\space_engineers_hxisu5qg.hko -p C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\SpringSuspensionFixed.hkt C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\SpringSuspensionFixed.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Mon Sep 11 00:03:31 2023, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 2 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\abbot\AppData\Roaming\SpaceEngineers\Mods\AWG's Convenient Weapon Pack!\Models\Cubes\small\SpringSuspensionFixed.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

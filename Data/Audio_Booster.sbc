@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Sounds>
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>ArcSmShipSmJetHydrogen</SubtypeId>
+			</Id>
+			<Category>SHIP_JET</Category>
+			<MaxDistance>50</MaxDistance>
+			<Volume>1</Volume>
+			<Loopable>true</Loopable>
+			<Waves>
+			<Wave Type="D3">
+				<!--<Start>Audio\ArcSmShipSmJetHydrogenStart3d.wav</Start>-->
+				<Loop>Audio\ArcSmShipSmJetHydrogenLoop3d.wav</Loop>
+				<!--<End>Audio\ArcSmShipSmJetHydrogenEnd3d.wav</End>-->
+			</Wave>
+			</Waves>
+		</Sound>
+	</Sounds>
+</Definitions>

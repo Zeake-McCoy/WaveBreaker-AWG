@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>L7JacketBreechBlock</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\L11BreechBlock.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\L7JacketBreechBlock.mwm</Model>
+	<BlockPairName>L11BreechBlock</BlockPairName>
+</Definition>

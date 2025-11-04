@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    
+    
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PikeCentreUpper5</SubtypeId>
+      </Id>
+      <DisplayName>PikeCentreUpper5</DisplayName>
+      <Model>Models\OverlordArmour\PikeCentreUpper5.mwm</Model>
+      <Size x="1" y="1" z="1" />
+      
+      
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Icon>NewIcons\4Slope.png</Icon>
+      
+      
+      
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <ModelOffset x="0" y="0" z="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      
+      <EdgeType>Light</EdgeType>
+      
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+      
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PikeCentreUpper4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PikeCentreUpper3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PikeCentreUpper2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PikeCentreUpper1</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PikeCentreLower1</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          
+          <SubtypeId>PikeCentreLowerFrontPlate</SubtypeId>
+          
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          
+          <SubtypeId>PikeLeftLower1</SubtypeId>
+          
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId>PikeLeftLower2</SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId>PikeTipLeft</SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId>PikeRightLower1</SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId>PikeRightLower2</SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId>PikeTipRight</SubtypeId>
+
+        </BlockVariant>
+        <!--
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+
+          <SubtypeId></SubtypeId>
+
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          
+          <SubtypeId></SubtypeId>
+          
+        </BlockVariant>>
+        -->
+      </BlockVariants>
+      
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PikeCentreUpper4</SubtypeId>
+      </Id>
+      <DisplayName>PikeCentreUpper4</DisplayName>
+      <Model>Models\OverlordArmour\PikeCentreUpper4.mwm</Model>
+      <Size x="1" y="1" z="1" />
+
+
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Icon>NewIcons\4Slope.png</Icon>
+
+
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <ModelOffset x="0" y="0" z="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <EdgeType>Light</EdgeType>
+
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PikeCentreUpper3</SubtypeId>
+      </Id>
+      <DisplayName>PikeCentreUpper3</DisplayName>
+      <Model>Models\OverlordArmour\PikeCentreUpper3.mwm</Model>
+      <Size x="1" y="1" z="1" />
+
+
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Icon>NewIcons\4Slope.png</Icon>
+
+
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <ModelOffset x="0" y="0" z="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <EdgeType>Light</EdgeType>
+
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PikeCentreUpper2</SubtypeId>
+      </Id>
+      <DisplayName>PikeCentreUpper2</DisplayName>
+      <Model>Models\OverlordArmour\PikeCentreUpper2Replacement.mwm</Model>
+      <Size x="1" y="1" z="1" />
+
+
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Icon>NewIcons\4Slope.png</Icon>
+
+
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <ModelOffset x="0" y="0" z="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <EdgeType>Light</EdgeType>
+
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PikeCentreUpper1</SubtypeId>
+      </Id>
+      <DisplayName>PikeCentreUpper1</DisplayName>
+      <Model>Models\OverlordArmour\PikeCentreUpper1.mwm</Model>
+      <Size x="1" y="1" z="1" />
+
+
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Icon>NewIcons\4Slope.png</Icon>
+
+
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <ModelOffset x="0" y="0" z="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <EdgeType>Light</EdgeType>
+
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PikeCentreLower1</SubtypeId>
+      </Id>
+      <DisplayName>PikeCentreLower1</DisplayName>
+      <Model>Models\OverlordArmour\PikeCentreLower1.mwm</Model>
+      <Size x="1" y="1" z="1" />
+
+
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Icon>NewIcons\4Slope.png</Icon>
+
+
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <ModelOffset x="0" y="0" z="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <EdgeType>Light</EdgeType>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PikeCentreLowerFrontPlate</SubtypeId>
+      </Id>
+      <DisplayName>PikeCentreLowerFrontPlate</DisplayName>
+      <Model>Models\OverlordArmour\PikeCentreLowerFrontPlate.mwm</Model>
+      <Size x="1" y="1" z="1" />
+
+
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Icon>NewIcons\4Slope.png</Icon>
+
+
+
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <ModelOffset x="0" y="0" z="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+      <EdgeType>Light</EdgeType>
+
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+    
+    
+    
+    
+    
+  </CubeBlocks>
+</Definitions>

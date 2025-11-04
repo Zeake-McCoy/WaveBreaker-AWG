@@ -1,0 +1,143 @@
+Running from: C:\Users\abbot\AppData\Local\Temp\tmpus72thqi 
+Command: D:\SSDSteamLibrary\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:BANEBLADEWheel.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\BlackMattePlastic_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalScratchedDarker_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PlasticWhite_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BurnedMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Rubber_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Rubber_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetal_Clean_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\MetalMilitary_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorableGlossy_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 48 50 49)
+: WARNING: 
+    Model contains degenerated triangle (indices 48 49 48)
+: WARNING: 
+    Model contains degenerated triangle (indices 55 57 56)
+: WARNING: 
+    Model contains degenerated triangle (indices 55 56 55)
+: WARNING: 
+    Model contains degenerated triangle (indices 58 60 59)
+: WARNING: 
+    Model contains degenerated triangle (indices 58 59 58)
+: WARNING: 
+    Model contains degenerated triangle (indices 67 69 68)
+: WARNING: 
+    Model contains degenerated triangle (indices 67 68 67)
+: WARNING: 
+    Model contains degenerated triangle (indices 56 75 74)
+: WARNING: 
+    Model contains degenerated triangle (indices 56 74 56)
+: WARNING: 
+    Model contains degenerated triangle (indices 78 77 76)
+: WARNING: 
+    Model contains degenerated triangle (indices 78 76 59)
+: WARNING: 
+    Model contains degenerated triangle (indices 79 81 80)
+: WARNING: 
+    Model contains degenerated triangle (indices 79 80 79)
+: WARNING: 
+    Model contains degenerated triangle (indices 68 93 92)
+: WARNING: 
+    Model contains degenerated triangle (indices 68 92 68)
+: WARNING: 
+    Model contains degenerated triangle (indices 74 97 96)
+: WARNING: 
+    Model contains degenerated triangle (indices 74 96 74)
+: WARNING: 
+    Model contains degenerated triangle (indices 76 99 98)
+: WARNING: 
+    Model contains degenerated triangle (indices 76 98 76)
+: WARNING: 
+    Model contains degenerated triangle (indices 80 105 104)
+: WARNING: 
+    Model contains degenerated triangle (indices 80 104 80)
+: WARNING: 
+    Model contains degenerated triangle (indices 92 107 106)
+: WARNING: 
+    Model contains degenerated triangle (indices 92 106 92)
+: WARNING: 
+    Model contains degenerated triangle (indices 96 108 48)
+: WARNING: 
+    Model contains degenerated triangle (indices 96 48 96)
+: WARNING: 
+    Model contains degenerated triangle (indices 98 110 109)
+: WARNING: 
+    Model contains degenerated triangle (indices 98 109 98)
+: WARNING: 
+    Model contains degenerated triangle (indices 104 113 55)
+: WARNING: 
+    Model contains degenerated triangle (indices 104 55 104)
+: WARNING: 
+    Model contains degenerated triangle (indices 115 114 58)
+: WARNING: 
+    Model contains degenerated triangle (indices 115 58 106)
+C:\Users\abbot\AppData\Local\Temp\tmpus72thqi\Content\BANEBLADEWheel.fbx: Processed
+: 
+    : Finished in 0.1s

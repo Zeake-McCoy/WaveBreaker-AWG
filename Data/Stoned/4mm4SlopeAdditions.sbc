@@ -1,0 +1,342 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate1Left</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 1 (Left, 4 Slope Additions)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate1Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  <BlockVariants>
+		  
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSideplate1Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSideplate2Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSideplate2Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSideplate3Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSideplate3Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSideplate4Left</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSideplate4Right</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeSmallTip</SubtypeId>
+			</BlockVariant>
+			
+			<BlockVariant>
+			  <TypeId>CubeBlock</TypeId>
+			  <SubtypeId>4mm4SlopeMediumTip</SubtypeId>
+			</BlockVariant>
+			
+		  </BlockVariants>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate1Right</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 1 (Right)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate1Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate2Left</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 2 (Left)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate2Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  </Definition>
+		  
+		  <Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate2Right</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 2 (Right)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate2Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate3Left</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 3 (Left)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate3Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  </Definition>
+		  
+		  <Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate3Right</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 3 (Right)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate3Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate4Left</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 4 (Left)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate4Left.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  </Definition>
+		  
+		  <Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSideplate4Right</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Sideplate 4 (Right)</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSideplate4Right.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+		
+		<Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeSmallTip</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Small Tip</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeSmallTip.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		  </Definition>
+		  
+		  <Definition>
+		  <Id>
+			<TypeId>CubeBlock</TypeId>
+			<SubtypeId>4mm4SlopeMediumTip</SubtypeId>
+		  </Id>
+		  <DisplayName>4mm 4 Slope Medium Tip</DisplayName>
+		  <Icon>NewIcons\4SlopeAdditions4mm.png</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\NewPlates\4SlopeMediumTip.mwm</Model>
+		  <IsStandAlone>true</IsStandAlone>
+		  <HasPhysics>true</HasPhysics>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  <Components>
+			<Component Subtype="InteriorPlate" Count="2" />
+		  </Components>
+		  <CriticalComponent Subtype="InteriorPlate" Index="0" />
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <BuildTimeSeconds>2</BuildTimeSeconds>
+      <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier> 
+		  <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+		  <DestroySound>PoofExplosionCat1</DestroySound>
+		  <PCU>1</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

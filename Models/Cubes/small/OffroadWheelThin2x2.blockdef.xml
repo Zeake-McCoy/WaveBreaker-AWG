@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>OffroadWheelThin2x2</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\OfroadwheelThin2x2.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="2" y="1" z="2" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\OffroadWheelThin2x2.mwm</Model>
+	<BlockPairName>OfroadwheelThin2x2</BlockPairName>
+</Definition>
