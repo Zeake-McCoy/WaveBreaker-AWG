@@ -4,480 +4,6 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>50CalMount</SubtypeId>
-      </Id>
-      <DisplayName>.50 Cal Mount</DisplayName>
-      <Icon>Textures\GUI\Icons\Track.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0.25" z="0" />
-      <Model>Models\Cubes\Small\50CalMount.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>    
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>Shovel</SubtypeId>
-      </Id>
-      <DisplayName>Deco Shovel</DisplayName>
-      <Icon>Textures\GUI\Icons\Track.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Shovel.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-
-    <!--Armour Start-->
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletBlock</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlate.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\MantletPlate.mwm</Model>
-      <BlockVariants>
-        
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MantletBlockOffsetFurther</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MantletBlockBelow</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>HalfMantletPlate</SubtypeId>
-        </BlockVariant>
-        
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>HalfMantletPlateMiddle</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>HalfMantletPlateMiddleOffset</SubtypeId>
-        </BlockVariant>
-        
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>HalfMantletPlateBelow</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MantletBlock45</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MantletBlock45Far</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>CentredMantletPlate</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>CentredMantletPlateMiddle</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>CentredMantletPlateBelow</SubtypeId>
-        </BlockVariant>
-        
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>3x3Plate</SubtypeId>
-        </BlockVariant>
-        
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MantletBlock452</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MantletPlateSide45</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MantletPlateSide452</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>EngineVent</SubtypeId>
-        </BlockVariant>
-
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>EngineVent1x1</SubtypeId>
-        </BlockVariant>
-        
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>35BigShroud</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>Extractor</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MB1</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MGCover</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>Lever</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-      
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletBlockOffsetFurther</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate Offset Further</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlate.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0.5" />
-      <Model>Models\Cubes\Small\MantletPlate.mwm</Model>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-      
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletBlockBelow</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate Offset Below</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\MantletPlateBelow.mwm</Model>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>HalfMantletPlate</SubtypeId>
-      </Id>
-      <DisplayName>Half Mantlet Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\HalfMantletPlate.mwm</Model>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-      
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>HalfMantletPlateBelow</SubtypeId>
-      </Id>
-      <DisplayName>Half Mantlet Plate Below</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0.5" />
-      <Model>Models\Cubes\Small\HalfMantletPlate.mwm</Model>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-      
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>HalfMantletPlateMiddle</SubtypeId>
-      </Id>
-      <DisplayName>Half Mantlet Plate Middle</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0.25" z="0" />
-      <Model>Models\Cubes\Small\HalfMantletPlate.mwm</Model>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-      
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>HalfMantletPlateMiddleOffset</SubtypeId>
-      </Id>
-      <DisplayName>Half Mantlet Plate Middle Offset</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0.25" z="0.47" />
-      <Model>Models\Cubes\Small\HalfMantletPlate.mwm</Model>
-
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>CentredMantletPlate</SubtypeId>
-      </Id>
-      <DisplayName>Centred Mantlet Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\CentredMantletPlate.mwm</Model>
-
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>CentredMantletPlateBelow</SubtypeId>
-      </Id>
-      <DisplayName>Centred Mantlet Plate Below</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0.5" />
-      <Model>Models\Cubes\Small\CentredMantletPlate.mwm</Model>
-
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>CentredMantletPlateMiddle</SubtypeId>
-      </Id>
-      <DisplayName>Centred Mantlet Plate Middle</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\MantletPlateOffsetBelow.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0.25" z="0" />
-      <Model>Models\Cubes\Small\CentredMantletPlate.mwm</Model>
-
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
         <SubtypeId>EngineVent</SubtypeId>
       </Id>
       <DisplayName>EngineVent</DisplayName>
@@ -515,178 +41,6 @@
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\EngineVent1x1.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletPlateSide45</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate 1x1 Slope Side 1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Mantlet1x1SlopeSide1.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="-0.5" z="0" />
-      <Model>Models\Cubes\Small\MantletPlateSide45.mwm</Model>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <UseModelIntersection>true</UseModelIntersection>
-      
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletPlateSide452</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate 1x1 Slope Side 2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Mantlet1x1SlopeSide2.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0.5" y="-0.5" z="0" />
-      <Model>Models\Cubes\Small\MantletPlateSide45.mwm</Model>
-      
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>3x3Plate</SubtypeId>
-      </Id>
-      <DisplayName>3x3 Collisionless Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\Mantlet.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Plate.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletBlock45</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate 1x1 Slope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Mantlet1x1Slope.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\MantletPlate45.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletBlock45Far</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate 1x1 Slope (Far)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Mantlet1x1Slope.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="50" z="0" />
-      <Model>Models\Cubes\Small\MantletPlate45.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MantletBlock452</SubtypeId>
-      </Id>
-      <DisplayName>Mantlet Plate 1x1 Slope Close</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Mantlet1x1SlopeClose.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0.5" z="-0.5" />
-      <Model>Models\Cubes\Small\MantletPlate45.mwm</Model>
       <IsStandAlone>false</IsStandAlone>
       <HasPhysics>false</HasPhysics>
       <Components>
@@ -786,228 +140,6 @@
       <PCU>1</PCU>
     </Definition>
 
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>3x3Ring</SubtypeId>
-      </Id>
-      <DisplayName>3x3 Collisionless Turret Ring</DisplayName>
-      <Icon>NewIcons\3x3Ring.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>4x4Ring</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>5x5Ring</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>6x6Ring</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>7x7Ring</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>8x8Ring</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>9x9Ring</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <Model>Models\Cubes\Small\3x3Ring.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>4x4Ring</SubtypeId>
-      </Id>
-      <DisplayName>4x4 Collisionless Turret Ring</DisplayName>
-      <Icon>NewIcons\4x4Ring.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\4x4Ring.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>5x5Ring</SubtypeId>
-      </Id>
-      <DisplayName>5x5 Collisionless Turret Ring</DisplayName>
-      <Icon>NewIcons\5x5Ring.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\5x5Ring.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>6x6Ring</SubtypeId>
-      </Id>
-      <DisplayName>6x6 Collisionless Turret Ring</DisplayName>
-      <Icon>NewIcons\6x6Ring.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\6x6Ring.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>7x7Ring</SubtypeId>
-      </Id>
-      <DisplayName>7x7 Collisionless Turret Ring</DisplayName>
-      <Icon>NewIcons\7x7Ring.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\7x7Ring.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>8x8Ring</SubtypeId>
-      </Id>
-      <DisplayName>8x8 Collisionless Turret Ring</DisplayName>
-      <Icon>NewIcons\8x8Ring.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\8x8Ring.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>9x9Ring</SubtypeId>
-      </Id>
-      <DisplayName>9x9 Collisionless Turret Ring</DisplayName>
-      <Icon>NewIcons\9x9Ring.png</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\9x9Ring.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1132,34 +264,6 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>Lever</SubtypeId>
-      </Id>
-      <DisplayName>Decorational Lever</DisplayName>
-      <Icon>Textures\GUI\Icons\Composite.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Lever.mwm</Model>
-      <IsStandAlone>false</IsStandAlone>
-      <HasPhysics>false</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>1</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
         <SubtypeId>MGCover</SubtypeId>
       </Id>
       <DisplayName>Decorational MG Cover</DisplayName>
@@ -1185,65 +289,168 @@
       <PCU>1</PCU>
     </Definition>
 
-    
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>BarbedWire1x2</SubtypeId>
+      </Id>
+      <DisplayName>Barbed Wire 1x2</DisplayName>
+      <Description>Damaging Barbed Wire when turned one</Description>
+      <Icon>NewIcons\AWGRailing.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\BarbedWire1x2.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="InteriorPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringZ>X</MirroringZ>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\BarbedWire1x2Construction.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelder</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.5</SensorRadius>
+      <RequiredPowerInput>0.0000</RequiredPowerInput>
+      <PCU>50</PCU>
+      <GeneralDamageMultiplier>0.1</GeneralDamageMultiplier>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SuperHeavyProp</SubtypeId>
+        <SubtypeId>Bell</SubtypeId>
       </Id>
-      <DisplayName>Super Heavy Tank Prop</DisplayName>
-      <Icon>Textures\GUI\Icons\Composite.dds</Icon>
+      <DisplayName>Bell</DisplayName>
+      <Icon>NewIcons\AWGRailing.png</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="5" />
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\SuperHeavyProp.mwm</Model>
+      <Center x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\Bell_001.mwm</Model>
       <IsStandAlone>true</IsStandAlone>
       <HasPhysics>true</HasPhysics>
       <Components>
-        <Component Subtype="SteelPlate" Count="320" />
+        <Component Subtype="SteelPlate" Count="860" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <BuildTimeSeconds>72</BuildTimeSeconds>
+      <GeneralDamageMultiplier>5</GeneralDamageMultiplier>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>Bong</DestroySound>
       <PCU>1</PCU>
     </Definition>
 
     <Definition>
       <Id>
-        <TypeId>TerminalBlock</TypeId>
-        <SubtypeId>ExplosiveDetacher</SubtypeId>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Cross</SubtypeId>
       </Id>
-      <DisplayName>Explosive Detacher</DisplayName>
-      <Icon>NewIcons\ExplosiveDetacher.png</Icon>
-      <Description>Destroys itself on instruction, does not count as a merge block</Description>
-      <CubeSize>Small</CubeSize>
+      <DisplayName>Cross</DisplayName>
+      <Icon>NewIcons\AWGRailing.png</Icon>
+      <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ExplosiveDetacher.mwm</Model>
+      <Center x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\Cross.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InteriorPlate" Count="2" />
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="InteriorPlate" Index="2" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>FlagPole</SubtypeId>
+      </Id>
+      <DisplayName>FlagPole</DisplayName>
+      <Icon>NewIcons\AWGRailing.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cubes\Small\FlagPole.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="8" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+	    
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TankTrap</SubtypeId>
+      </Id>
+      <DisplayName>Czech Hedgehog (Tank Trap)</DisplayName>
+      <Icon>NewIcons\TankProps.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\TankTrap.mwm</Model>
       <IsStandAlone>true</IsStandAlone>
       <HasPhysics>true</HasPhysics>
       <UseModelIntersection>true</UseModelIntersection>
-      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="80" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
       <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <PCU>5</PCU>
-      <IsAirTight>true</IsAirTight>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
     </Definition>
   </CubeBlocks>
 </Definitions>
