@@ -1,0 +1,1270 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <!--Cupola Start-->
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFlatHalf</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Flat Half)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(FlatHalf).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionFlatHalf.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionRoofFull</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionRoofWide</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionRoofClear</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>ThermalPortCubeNoOverlay</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionRoofHalf</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFlatHalfReverse</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFlatHalfTarget</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFlatHalfTargetReverse</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeBack</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeFront</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeCovered</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeCoveredOffset</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeSmallerBack</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeSmallerFront</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeCoveredSmaller</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeCoveredOffsetSmaller</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>VisionFixedPeriscopeCoveredOffsetAltSmaller</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.9</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFlatHalfReverse</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Flat Half Reverse)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(FlatHalfReverse).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0.25" z="0" />
+      <Model>Models\Cubes\Small\VisionFlatHalf.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.9</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFlatHalfTargetReverse</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Half Target Reverse)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(HalfTargetReverse).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0.25" z="0" />
+      <Model>Models\Cubes\Small\VisionFlatHalf.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\VisionTargetCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.1</MinFov>
+      <MaxFov>0.9</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFlatHalfTarget</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Half Target)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(HalfTarget).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionFlatHalf.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\VisionTargetCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.1</MinFov>
+      <MaxFov>0.9</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionRoofFull</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Full)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Full).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionRoofFull.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="BulletproofGlass" Count="4" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.3</MinFov>
+      <MaxFov>1</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>20</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionRoofWide</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Wide)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Full).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionRoofFull.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="BulletproofGlass" Count="4" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.2</MinFov>
+      <MaxFov>1.2</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>20</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionRoofClear</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Clear)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Full).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionRoofFull.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="BulletproofGlass" Count="1" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture></OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.2</MinFov>
+      <MaxFov>1.2</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>20</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionRoofHalf</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Half)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionRoofHalf.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.3</MinFov>
+      <MaxFov>0.9</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>20</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeBack</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Back)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscope.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscope.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeFront</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Front)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscope.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-0.25" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscope.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeCovered</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Covered)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscopeCovered.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscopeCovered.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeCoveredOffset</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Covered Offset)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscopeCovered.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0.25" z="0" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscopeCoveredOffset.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeSmallerBack</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Back, Smaller)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscope.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscopeSmaller.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeSmallerFront</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Front, Smaller)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscope.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-0.25" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscopeSmaller.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeCoveredSmaller</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Covered, Smaller)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscopeCovered.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscopeCoveredSmaller.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeCoveredOffsetSmaller</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Covered Offset, Smaller)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscopeCovered.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0.25" z="0" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscopeCoveredOffsetSmaller.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>VisionFixedPeriscopeCoveredOffsetAltSmaller</SubtypeId>
+      </Id>
+      <DisplayName>Vision Port Camera (Fixed Periscope Covered Offset Alt, Smaller)</DisplayName>
+      <Icon>NewIcons\VisionFixedPeriscopeCovered.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionFixedPeriscopeCoveredOffsetSmaller.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\CupolaCam.dds</OverlayTexture>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MinFov>0.4</MinFov>
+      <MaxFov>0.4</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HalfVisionBlock</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (Half)</DisplayName>
+      <Icon>NewIcons\VisBlock.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\HalfVisionBlock.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisionBlockFlatCentred</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisBlockFlat</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VBFlatFull</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VBFlatFullCentred</SubtypeId>
+        </BlockVariant>
+        
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisionBlockFlatFullHalf</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisionBlockFlatFullHalfCentred</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisBlockAngleLeft</SubtypeId>
+        </BlockVariant>
+        
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisBlockAngleRight</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VBQuarterPlateSlopedTop</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VBQuarterPlateSlopedBottom</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisionBlockSlope1x1</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisionBlockSlope1x1Reverse</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisBlock1x2Base</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>VisBlock1x2Horizontal</SubtypeId>
+        </BlockVariant>
+        
+
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisBlockFlat</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (Flat)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionBlockFlat.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VBQuarterPlateSlopedTop</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (Quarter Slope Top)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VBQuarterPlateSlopedTop.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VBQuarterPlateSlopedBottom</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (Quarter Slope Bottom)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VBQuarterPlateSlopedBottom.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisionBlockFlatFullHalf</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block Full Half (Flat)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionBlockFlatFullHalf.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisionBlockFlatFullHalfCentred</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block Full Half (Flat Centred)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionBlockFlatFullHalfCentred.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisionBlockFlatCentred</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (Centre)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionBlockFlatCentred.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VBFlatFullCentred</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (Full Centre)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VBFlatFullCentred.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VBFlatFull</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (Full Flat)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VBFlatFull.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisionBlockSlope1x1</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block Slope (1x1)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionBlockSlope1x1.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisionBlockSlope1x1Reverse</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block Slope (1x1 Reverse)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisionBlockSlope1x1Reverse.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisBlock1x2Base</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (1x2 Base)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisBlock1x2Base.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisBlock1x2Horizontal</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (1x2 Horizontal)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\1x2VisBlockHorizontal.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+  
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisBlockAngleLeft</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (AngleLeft)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisBlockAngleLeft.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+  
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>VisBlockAngleRight</SubtypeId>
+      </Id>
+      <DisplayName>Vision Block (AngleRight)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Half).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\VisBlockAngleRight.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

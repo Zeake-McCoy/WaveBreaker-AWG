@@ -4,131 +4,54 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SheetMetalLarge</SubtypeId>
+        <SubtypeId>7Slope12mm1</SubtypeId>
       </Id>
-      <DisplayName>Sheet Metal Large</DisplayName>
-      <Icon>NewIcons\SheetMetal.png</Icon>
-      <CubeSize>Large</CubeSize>
+      <DisplayName>AWG 12mm 7 Slope 1</DisplayName>
+      <Icon>NewIcons\7Slope.png</Icon>
+      <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Center x="0" y="0" z="0" />
-      <UseModelIntersection>true</UseModelIntersection>
-      <Model>Models\Cubes\Small\SheetMetalLarge.mwm</Model>
+      <Model>Models\Cubes\Small\7Slope1.mwm</Model>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SheetMetalLargeTriple</SubtypeId>
+          <SubtypeId>7Slope12mm2</SubtypeId>
         </BlockVariant>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>TrenchBridgeMiddle</SubtypeId>
+          <SubtypeId>7Slope12mm3</SubtypeId>
         </BlockVariant>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>TrenchStairs</SubtypeId>
+          <SubtypeId>7Slope12mm4</SubtypeId>
         </BlockVariant>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>TrenchBoardDry</SubtypeId>
+          <SubtypeId>7Slope12mm5</SubtypeId>
         </BlockVariant>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>TrenchBoardWet</SubtypeId>
+          <SubtypeId>7Slope12mm6</SubtypeId>
         </BlockVariant>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>Cross</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>FlagPole</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>ShipWelder</TypeId>
-          <SubtypeId>BarbedWire1x2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>RatFrankSmall</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>HousePlate</SubtypeId>
+          <SubtypeId>7Slope12mm7</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <IsStandAlone>true</IsStandAlone>
       <HasPhysics>true</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SheetMetalLargeTriple</SubtypeId>
-      </Id>
-      <DisplayName>Sheet Metal Large Triple</DisplayName>
-      <Icon>NewIcons\E100SkirtSideLeft.png</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Center x="0" y="0" z="0" />
       <UseModelIntersection>true</UseModelIntersection>
-      <Model>Models\Cubes\Small\SheetMetalLargeTriple.mwm</Model>
-      <IsStandAlone>true</IsStandAlone>
-      <HasPhysics>true</HasPhysics>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
       <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>TrenchBridgeMiddle</SubtypeId>
-      </Id>
-      <DisplayName>Trench Bridge Middle</DisplayName>
-      <Icon>NewIcons\E100SkirtSideLeft.png</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Center x="0" y="0" z="0" />
-      <UseModelIntersection>true</UseModelIntersection>
-      <Model>Models\Cubes\Small\TrenchBridgeMiddle.mwm</Model>
-      <IsStandAlone>true</IsStandAlone>
-      <HasPhysics>true</HasPhysics>
-      <Components>
-        <Component Subtype="SteelPlate" Count="8" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>1</PCU>
     </Definition>
@@ -136,58 +59,28 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>TrenchStairs</SubtypeId>
+        <SubtypeId>7Slope12mm2</SubtypeId>
       </Id>
-      <DisplayName>Trench Stairs</DisplayName>
-      <Icon>NewIcons\E100SkirtSideLeft.png</Icon>
-      <CubeSize>Large</CubeSize>
+      <DisplayName>12mm 7 Slope 2</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Center x="0" y="0" z="0" />
-      <UseModelIntersection>true</UseModelIntersection>
-      <Model>Models\Cubes\Small\TrenchStairs.mwm</Model>
+      <Model>Models\Cubes\Small\7Slope2.mwm</Model>
       <IsStandAlone>true</IsStandAlone>
       <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="8" />
+        <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
       <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>1</PCU>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>Cross</SubtypeId>
-      </Id>
-      <DisplayName>Cross</DisplayName>
-      <Icon>NewIcons\E100SkirtSideLeft.png</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Center x="0" y="0" z="0" />
-      <UseModelIntersection>true</UseModelIntersection>
-      <Model>Models\Cubes\Small\Cross.mwm</Model>
-      <IsStandAlone>true</IsStandAlone>
-      <HasPhysics>true</HasPhysics>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="2" />
-      </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="2" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
-      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>1</PCU>
     </Definition>
@@ -195,29 +88,28 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>FlagPole</SubtypeId>
+        <SubtypeId>7Slope12mm3</SubtypeId>
       </Id>
-      <DisplayName>FlagPole</DisplayName>
-      <Icon>NewIcons\E100SkirtSideLeft.png</Icon>
-      <CubeSize>Large</CubeSize>
+      <DisplayName>12mm 7 Slope 3</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Center x="0" y="0" z="0" />
-      <UseModelIntersection>true</UseModelIntersection>
-      <Model>Models\Cubes\Small\FlagPole.mwm</Model>
+      <Model>Models\Cubes\Small\7Slope3.mwm</Model>
       <IsStandAlone>true</IsStandAlone>
       <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="8" />
+        <Component Subtype="SteelPlate" Count="1" />
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="8" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
       <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>1</PCU>
     </Definition>
@@ -225,29 +117,115 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>HousePlate</SubtypeId>
+        <SubtypeId>7Slope12mm4</SubtypeId>
       </Id>
-      <DisplayName>House Base Plate</DisplayName>
-      <Icon>NewIcons\E100SkirtSideLeft.png</Icon>
-      <CubeSize>Large</CubeSize>
+      <DisplayName>12mm 7 Slope 4</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="7" y="1" z="7" />
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Center x="0" y="0" z="0" />
-      <UseModelIntersection>true</UseModelIntersection>
-      <Model>Models\Cubes\Small\HousePlate1.mwm</Model>
+      <Model>Models\Cubes\Small\7Slope4.mwm</Model>
       <IsStandAlone>true</IsStandAlone>
       <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
       <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>7Slope12mm5</SubtypeId>
+      </Id>
+      <DisplayName>12mm 7 Slope 5</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\7Slope5.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>7Slope12mm6</SubtypeId>
+      </Id>
+      <DisplayName>12mm 7 Slope 6</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\7Slope6.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>7Slope12mm7</SubtypeId>
+      </Id>
+      <DisplayName>12mm 7 Slope 7</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\7Slope7.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>1</PCU>
     </Definition>

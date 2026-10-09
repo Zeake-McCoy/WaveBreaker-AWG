@@ -1,6 +1,185 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+    
+    <!--Fixed Connectors-->
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>AWG1Connector</SubtypeId>
+      </Id>
+      <DisplayName>AWG Connector (1x1x1)</DisplayName>
+      <Icon>NewIcons\AWG1Connector.png</Icon>
+      <Description>Half Connector with nice collisions</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWG1Connector.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion> 
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ActionSound>BlockEject</ActionSound>
+      <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      
+      <PCU>125</PCU>
+      <IsAirTight>true</IsAirTight>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+      <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
+      
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>ShipConnector</TypeId>
+          <SubtypeId>AWG3Connector</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    
+    </Definition>
+
+    
+   <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>AWG3Connector</SubtypeId>
+      </Id>
+      <DisplayName>AWG Connector (3x3x1)</DisplayName>
+      <Icon>NewIcons\AWG3Connector.png</Icon>
+      <Description>Half Connector with nice collisions</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWG3Connector.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion> 
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ActionSound>BlockEject</ActionSound>
+      <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      
+      <PCU>125</PCU>
+      <IsAirTight>true</IsAirTight>
+      <UseModelIntersection>true</UseModelIntersection>
+      
+      <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+      <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
+    
+    </Definition>
+    
+    <!--Fixed Connectors End-->
+
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>AWGConveyorCube</SubtypeId>
+      </Id>
+      <DisplayName>AWG Conveyor</DisplayName>
+      <Icon>NewIcons\AWGConveyorCube.png</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGConveyorCube.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>AWGConveyorStraight</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>AWGConveyor45</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>AWGConveyorTJunction</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>AWGConveyorYJunction</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>AWGConveyorQuadJunction</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>AWGConveyorQuadJunction2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>AWGSmallContainer</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="InteriorPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DamageMultiplierExplosion>0.5</DamageMultiplierExplosion> 
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
 
     <Definition>
       <Id>
@@ -211,6 +390,46 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>AWGSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>AWG Small Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AWGSmallCargoContainer.png</Icon>
+      <Description>Description_SmallCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AWGSmallContainer.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1.3</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+
+
+
 
     <Definition>
       <Id>

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>3Slope12mm1</SubtypeId>
+      </Id>
+      <DisplayName>AWG 12mm Defunct 3 Slope 1</DisplayName>
+      <Icon>NewIcons\3Slope.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\6Slope1.mwm</Model>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>3Slope12mm2</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>3Slope12mm3</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+            <Public>false</Public>
+      <PCU>1</PCU>
+    </Definition>
+    
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>3Slope12mm2</SubtypeId>
+      </Id>
+      <DisplayName>12mm Defunct 3 Slope 2</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\6Slope2.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+            <Public>false</Public>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>3Slope12mm3</SubtypeId>
+      </Id>
+      <DisplayName>12mm Defunct 3 Slope 3</DisplayName>
+      <Icon>Textures\GUI\Icons\RivetPlate.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\6Slope3.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>AWGPlateBreakEffect</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+            <Public>false</Public>
+      <PCU>1</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlatFlat</SubtypeId>
+      </Id>
+      <DisplayName>25mm Flat Slat Armour</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\25mmFlatSlatArmour.png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Slat\SlatFlat.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+      <BlockVariants>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Slat45</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>Slat30</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlatCentre</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlatHalfVertical</SubtypeId>
+        </BlockVariant>
+
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SlatHalfHorizontal</SubtypeId>
+        </BlockVariant>
+        
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Slat45</SubtypeId>
+      </Id>
+      <DisplayName>25mm Slat Armour (45 Slope)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\25mmSlatArmour(45Slope).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Slat\45Slat.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlatCentre</SubtypeId>
+      </Id>
+      <DisplayName>25mm Slat Armour (Centred)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\25mmSlatArmour(Centred).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-0.24" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Slat\SlatFlat.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlatHalfVertical</SubtypeId>
+      </Id>
+      <DisplayName>25mm Slat Armour (Half Vertical)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\25mmSlatArmour(Centred).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Slat\SlatHalfVertical.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SlatHalfHorizontal</SubtypeId>
+      </Id>
+      <DisplayName>25mm Slat Armour (Half Horizontal)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\25mmSlatArmour(Centred).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Slat\SlatHalfHorizontal.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Slat30</SubtypeId>
+      </Id>
+      <DisplayName>25mm Slat Armour (30 Slope)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\25mmSlatArmour(30Slope).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Armour\Slat\30Slat.mwm</Model>
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

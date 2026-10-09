@@ -1,6 +1,76 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+    <!--Cupola Start-->
+    <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
+      <Id>
+        <TypeId>CameraBlock</TypeId>
+        <SubtypeId>ThermalPortCubeNoOverlay</SubtypeId>
+      </Id>
+      <DisplayName>Vision Camera (Cube)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\VisionPortCamera(Full).png</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <UseModelIntersection>true</UseModelIntersection>
+      <Model>Models\Cameras\ThermalPortCube.mwm</Model>
+
+      <Description>
+        Ranging (m):
+        
+        Top of crosshair:
+        HE 310 (300)
+        AP 480 (500)
+        APDS 1080 (1100)
+        APFSDS 4500
+        
+        Bottom of crosshair
+        HE 610 (600)
+        AP 950  (1000)
+        APDS 2150 (2200)
+        APFSDS 8600
+      </Description>
+        
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <!--<BlockVariants>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>ThermalPortCylinder</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CameraBlock</TypeId>
+          <SubtypeId>ThermalPortHalf</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>-->
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>true</HasPhysics>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <DamageMultiplierExplosion>1</DamageMultiplierExplosion> 
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.050000</RequiredPowerInput> <!--50 kw-->
+      <OverlayTexture>NewScreens\ModernSightNoRange.dds</OverlayTexture>
+      <MinFov>0.2</MinFov>
+      <MaxFov>0.6</MaxFov>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
     <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
       <Id>
         <TypeId>ReflectorLight</TypeId>
